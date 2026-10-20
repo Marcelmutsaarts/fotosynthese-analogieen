@@ -13,16 +13,24 @@
 @media(max-width:480px){.wrap{padding:0 16px}.header-row{min-height:76px;gap:10px}.brand{font-size:20px}.badge{font-size:11px;padding:5px 8px}h1{letter-spacing:-1px;font-size:36px}h2{font-size:25px}.nav{gap:16px;justify-content:space-between}.nav button{font-size:14px;gap:6px}.hobbies{gap:5px}.hobby-name{font-size:12px}.hobby .icon{width:26px;height:26px}.panel{padding:18px}.compare-box{padding:10px;font-size:14px}.compare-row{gap:5px;grid-template-columns:1fr 20px 1fr}.section-head{align-items:start;flex-direction:column;gap:6px}.bottom-strip{flex-direction:column;align-items:start;padding:18px}.formula{font-size:15px;gap:7px}.actions{flex-wrap:wrap}.footer-row{flex-direction:column;gap:8px}.prediction-options{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
 @media print{header,.nav,.hobbies,.actions,footer,.bottom-strip,.btn{display:none!important}body{background:#fff}.wrap{max-width:100%;padding:0}.panel{break-inside:avoid}.hero{padding:10px 0}.lesson-grid,.lab-grid,.check-layout{display:block}.panel{margin-bottom:15px}}
+/* Interactive comparisons */
+.header-row{min-height:70px}.hero{padding:24px 0 20px}.hero h1{font-size:clamp(30px,3.7vw,46px)}.hero p{margin-top:10px}.hero .eyebrow,.leaf-mark{display:none}.nav{margin-bottom:22px}.section-head{margin-bottom:14px}.section-head h2{font-size:24px}.hobbies{margin-bottom:20px}.hobby{min-height:74px}.lesson-grid{display:flex;flex-direction:column;gap:18px}.visual-panel{padding:0;background:#fff;overflow:hidden;min-height:0;border-color:#cbd9d0}.visual-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 22px;border-bottom:1px solid var(--line)}.visual-toolbar h3{font-size:22px}.label-switch{display:flex;gap:8px;align-items:center;font-size:13px;white-space:nowrap}.label-switch input{accent-color:var(--green)}.scene-pair{display:grid;grid-template-columns:1fr 1fr}.scene-card{padding:18px 10px 8px;min-width:0;background:#fcfaf5}.scene-card+ .scene-card{border-left:1px solid #dbe4de;background:#f1f6f1}.scene-card h4{font-size:13px;letter-spacing:1px;text-transform:uppercase;font-weight:400;margin:0 0 0 16px;color:#526052}.scene-svg{display:block;width:100%;height:auto;overflow:visible}.scene-svg text{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;fill:var(--ink)}.scene-svg .node-title{font-size:16px}.scene-svg .node-note{font-size:12px;fill:#526052}.scene-svg .link-line{stroke:#2d7862;stroke-width:3;fill:none;stroke-linecap:round}.scene-svg .energy-line{stroke:#ac7518;stroke-width:3;stroke-dasharray:7 6;fill:none}.scene-svg .item{transition:opacity .25s,filter .25s}.scene-svg .item.is-muted{opacity:.16}.scene-svg .item.is-highlighted .focus-ring{opacity:1}.scene-svg .focus-ring{opacity:0;fill:none;stroke:#8535cc;stroke-width:2;stroke-dasharray:5 5}.scene-svg .output{opacity:.15;transition:opacity .35s}.scene-svg.result-ok .output{opacity:1}.scene-svg.playing .output{animation:appear .7s .8s both}.scene-svg.playing .link-line{stroke-dasharray:8 8;animation:travel 1.4s linear 2}.scene-svg.playing .energy-line{animation:travel 1.4s linear 2}.scene-svg.result-blocked .stopped{opacity:1}.scene-svg .stopped{opacity:0}.scene-svg .stored{opacity:1}.scene-svg.hide-labels .diagram-label{visibility:hidden}.scene-tools{border-top:1px solid var(--line);padding:14px 22px 18px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.part-tools{display:flex;gap:6px;flex-wrap:wrap}.chip{border:1px solid #ccd7d0;background:white;padding:7px 12px;border-radius:8px;font-size:13px}.chip[aria-pressed="true"]{color:#542198;border-color:#8535cc;background:#f6f0fb}.visual-experiment{padding:18px 22px;background:#f7f9f6;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1.15fr;gap:20px}.experiment-title{font-size:15px;margin-bottom:10px}.scenario-switch{display:flex;gap:8px;flex-wrap:wrap}.scenario-switch button{border:1px solid #bbcdbf;padding:9px 12px;background:white;border-radius:9px;font-size:13px}.scenario-switch button[aria-pressed="true"]{background:#e3efe5;border-color:#246954}.visual-predict{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.visual-predict .option{width:auto;padding:8px 15px;min-width:64px;justify-content:center}.visual-predict .btn{padding:8px 13px;font-size:14px}.scene-response{padding:0 22px 18px;background:#f7f9f6;font-size:14px;color:#244e3b;min-height:18px}.scene-response:empty{padding:0}.legend-inline{display:flex;gap:15px;flex-wrap:wrap;font-size:12px;color:#526052}.legend-inline span{display:flex;align-items:center;gap:6px}.legend-inline i{width:25px;display:inline-block;border-top:3px solid #2d7862}.legend-inline i.energy{border-top:3px dashed #ac7518}.lesson-grid>.panel:last-child{padding:24px;display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,.7fr);gap:0 30px}.lesson-grid>.panel:last-child .actions{grid-column:1/-1}.lesson-grid>.panel:last-child .feedback{align-self:start;margin-top:0}.lesson-grid>.panel:last-child .progress-dots{margin-bottom:12px}.lesson-grid>.panel:last-child .lesson-copy{margin:10px 0 16px}.after-answer{margin-top:16px;font-size:14px;color:var(--muted)}.lesson-grid>.panel:last-child h3{margin-bottom:16px}.lesson-meaning{border-top:1px solid var(--line);padding-top:14px}.hint-toggle{margin-top:12px;background:none;border:0;text-decoration:underline;text-underline-offset:3px;color:#526052;padding:6px 0;font-size:14px}.analogy-boundary{margin-top:16px;border-left:3px solid #a77d35;padding-left:14px;font-size:14px;line-height:1.5}.match-note{font-size:13px;margin-top:10px;color:#526052}.comparison-explain{margin-top:10px;width:100%;min-height:85px}.first-attempt{font-size:12px;color:var(--muted);margin-top:14px}
+.scene-svg .inactive-flow{opacity:.15}.scene-svg .inactive-flow .energy-line{animation:none!important;stroke-dasharray:3 6}.scene-svg .material-off .essential-item{opacity:.15}
+@keyframes travel{to{stroke-dashoffset:-32}}@keyframes appear{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:800px){.hero h1{font-size:36px}.scene-pair{grid-template-columns:1fr}.scene-card+.scene-card{border-left:0;border-top:1px solid #dbe4de}.scene-card{padding-top:12px}.scene-svg{max-height:320px}.visual-experiment{grid-template-columns:1fr;gap:16px}.visual-toolbar{padding:14px 16px}.visual-toolbar h3{font-size:19px}.scene-tools{padding:12px 16px;gap:12px}.visual-experiment{padding:16px}.scene-response{padding:0 16px 16px}.lesson-grid>.panel:last-child{display:block;padding:20px}.lesson-grid>.panel:last-child .feedback{margin-top:16px}.scene-card h4{font-size:12px}.hero p{font-size:15px}}
+@media(max-width:480px){.scene-svg .node-title{font-size:18px}.scene-svg .node-note{font-size:15px}.visual-toolbar{align-items:start;flex-direction:column;gap:8px}.hobby .small{display:none}.scene-tools{align-items:start}.chip{padding:8px 10px}.scene-svg{max-height:none}.hero h1{font-size:32px}.hero{padding-top:20px}.scene-pair{gap:0}.nav{gap:9px}.nav button{font-size:13px}.visual-predict{gap:6px}.visual-predict .btn{flex:1}.lesson-grid>.panel:last-child{padding:16px}.hobbies{gap:5px}}
+@media(prefers-reduced-motion:reduce){.scene-svg *{animation:none!important;transition:none!important}}
+
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Naar de inhoud</a>
 <header><div class="wrap header-row"><a class="brand" href="https://aivoordocenten.nl" target="_blank" rel="noopener"><span>AI</span>voordocenten</a><span class="badge">Biologie · klas 2</span></div></header>
 <main class="wrap" id="main">
-<div class="hero"><div class="hero-top"><div><div class="eyebrow" style="margin-bottom:10px">Interactieve begrippentutor</div><h1>Fotosynthese in 5 vergelijkingen</h1></div><div class="leaf-mark" aria-hidden="true"><svg width="42" height="42" viewBox="0 0 60 60" fill="none"><path d="M13 43C0 15 29 5 49 10c8 27-7 43-27 37" stroke="#246954" stroke-width="2"/><path d="M10 53 40 23M23 40l-2-12M31 32l12 1" stroke="#246954" stroke-width="2"/></svg></div></div><p>Gebruik iets bekends om fotosynthese te begrijpen. Onderzoek daarna zelf wat een plant nodig heeft.</p></div>
+<div class="hero"><div class="hero-top"><div><div class="eyebrow" style="margin-bottom:10px">Interactieve begrippentutor</div><h1>Fotosynthese in 5 vergelijkingen</h1></div><div class="leaf-mark" aria-hidden="true"><svg width="42" height="42" viewBox="0 0 60 60" fill="none"><path d="M13 43C0 15 29 5 49 10c8 27-7 43-27 37" stroke="#246954" stroke-width="2"/><path d="M10 53 40 23M23 40l-2-12M31 32l12 1" stroke="#246954" stroke-width="2"/></svg></div></div><p>Vergelijk de beelden, verander een voorwaarde en voorspel wat er gebeurt.</p></div>
 <nav class="nav" aria-label="Onderdelen"><button type="button" data-view="discover" aria-current="page"><span class="step-num">1</span>Vergelijk</button><button type="button" data-view="lab"><span class="step-num">2</span>Plantlab</button><button type="button" data-view="check"><span class="step-num">3</span>Begripscheck</button></nav>
 <section id="discover" aria-labelledby="discover-title">
-<div class="section-head"><div><h2 id="discover-title" tabindex="-1">Waar ben jij mee bezig?</h2><p>Kies één vergelijking om te beginnen. Je kunt ze alle vijf onderzoeken.</p></div><span class="small" id="discovery-progress"></span></div>
+<div class="section-head"><div><h2 id="discover-title" tabindex="-1">Welke vergelijking kies je?</h2><p>Kies één vergelijking om te beginnen. Je kunt ze alle vijf onderzoeken.</p></div><span class="small" id="discovery-progress"></span></div>
 <div class="hobbies" id="hobbies" aria-label="Kies je vergelijking"></div>
 <div class="lesson-grid"><div class="panel visual-panel" id="analogy-visual"></div><div class="panel"><div id="lesson-content"></div><div id="lesson-feedback" aria-live="polite"></div><div class="actions"><button type="button" class="btn text" id="lesson-prev">← Vorige stap</button><button type="button" class="btn" id="lesson-next" disabled>Volgende stap →</button></div></div></div>
 <div class="bottom-strip"><p>De vergelijking helpt je op weg. In het plantlab gebruik je de biologische begrippen.</p><button type="button" class="btn secondary" data-view="lab">Naar het plantlab →</button></div>
@@ -39,7 +47,7 @@
 <div class="check-layout"><div class="panel"><div id="check-content"></div><div id="check-feedback" aria-live="polite"></div><div class="actions"><button type="button" class="btn text" id="check-prev">← Vorige vraag</button><button type="button" class="btn" id="check-next" disabled>Volgende vraag →</button></div></div><aside class="panel"><div class="eyebrow">Dit onderzoek je</div><ol class="check-overview" id="check-overview"></ol><p class="small" style="margin-top:20px">Je kunt je antwoord opnieuw proberen. Lees de uitleg en bedenk wat je wilt veranderen.</p></aside></div>
 <div class="panel" id="own-explanation" style="margin-top:22px"><h3>Leg het in je eigen woorden uit</h3><label class="text-label" for="explanation">Een plant groeit, terwijl hij geen kant-en-klaar eten krijgt. Hoe kan dat? Noem de grondstoffen, de energiebron en wat de plant maakt.</label><textarea id="explanation" maxlength="2500" placeholder="De plant kan zelf…"></textarea><div class="actions"><span class="small" id="save-state">Je tekst blijft op dit apparaat.</span><button type="button" class="btn secondary" id="show-model">Vergelijk met een voorbeelduitleg</button></div><div id="model-box" hidden><div class="model">De plant neemt water op via de wortels en CO₂ uit de lucht via de bladeren. In de bladgroenkorrels wordt lichtenergie opgevangen. Met die energie maakt de plant uit water en CO₂ glucose. Daarbij ontstaat ook zuurstof. Glucose bevat opgeslagen chemische energie en levert bouwstoffen voor groei.</div><label class="self-check"><input type="checkbox" id="self-reviewed"><span>Ik heb mijn uitleg vergeleken en waar nodig verbeterd.</span></label></div><div class="actions"><span id="learning-summary" class="small"></span><button type="button" class="btn" id="download">Bewaar mijn antwoorden ↓</button></div></div>
 </section>
-<footer><div class="footer-row"><p id="storage-note">Je voortgang en antwoorden worden alleen in deze browser bewaard.</p><button type="button" class="btn text" id="reset">Wis mijn voortgang</button></div><details class="teacher"><summary>Voor de docent · leerdoel en aanpak</summary><p>Leerdoel: de lerende legt uit hoe een plant met lichtenergie uit water en koolstofdioxide glucose maakt, onderscheidt energie van grondstoffen en voorspelt wat er gebeurt als een noodzakelijke voorwaarde ontbreekt.</p><p>Laat de lerende eerst één herkenbare vergelijking kiezen, daarna voorspellingen doen in het plantlab en afsluiten met een uitleg zonder analogie. De vijf vergelijkingen belichten elk een ander aspect. De app benoemt steeds waar de vergelijking ophoudt.</p><p>De opbouw volgt het <a href="https://files.eric.ed.gov/fulltext/ED373306.pdf" target="_blank" rel="noopener">Teaching-with-Analogies-model van Glynn</a>: aansluiten bij iets bekends, overeenkomsten onderzoeken en de grenzen van de vergelijking expliciet maken. De korte stappen, inhoudelijke feedback en begripscheck zijn in deze app didactische ontwerpkeuzes.</p><p>De biologische uitleg sluit aan bij de uitleg over <a href="https://rfs.org.uk/learning/tremendous-trees/photosynthesis/" target="_blank" rel="noopener">fotosynthese van de Royal Forestry Society</a> en de uitleg van de RHS over <a href="https://www.rhs.org.uk/advice/understanding-plants/how-plants-use-light-to-grow" target="_blank" rel="noopener">lichtgebruik door planten</a>. De plant maakt ook gebruik van celademhaling; dat proces wordt hier niet gesimuleerd.</p><p>Deze HTML-app werkt ook zonder internet. De feedback is vooraf geschreven. De eigen uitleg wordt door de lerende zelf vergeleken met het voorbeeld.</p></details></footer>
+<footer><div class="footer-row"><p id="storage-note">Je voortgang en antwoorden worden alleen in deze browser bewaard.</p><button type="button" class="btn text" id="reset">Wis mijn voortgang</button></div><details class="teacher"><summary>Voor de docent · leerdoel en aanpak</summary><p>Leerdoel: de lerende legt uit hoe een plant met lichtenergie uit water en koolstofdioxide glucose maakt, onderscheidt energie van grondstoffen en voorspelt wat er gebeurt als een noodzakelijke voorwaarde ontbreekt.</p><p>Laat de lerende eerst één herkenbare vergelijking kiezen, daarna voorspellingen doen in het plantlab en afsluiten met een uitleg zonder analogie. De vijf vergelijkingen belichten elk een ander aspect. Laat eerst voorspellen en daarna het beeld onderzoeken. De tekstlabels kunnen uit voor een mondelinge uitleg op basis van de beelden. Koken, gamen en bouwen richten zich op het maken van glucose. Het festival gaat over energie opslaan; fietsen over energie uit die voorraad gebruiken. De app benoemt steeds waar de vergelijking ophoudt.</p><p>De opbouw volgt het <a href="https://files.eric.ed.gov/fulltext/ED373306.pdf" target="_blank" rel="noopener">Teaching-with-Analogies-model van Glynn</a>: aansluiten bij iets bekends, overeenkomsten onderzoeken en de grenzen van de vergelijking expliciet maken. De korte stappen, inhoudelijke feedback en begripscheck zijn in deze app didactische ontwerpkeuzes.</p><p>De biologische uitleg sluit aan bij de uitleg over <a href="https://rfs.org.uk/learning/tremendous-trees/photosynthesis/" target="_blank" rel="noopener">fotosynthese van de Royal Forestry Society</a> en de uitleg van de RHS over <a href="https://www.rhs.org.uk/advice/understanding-plants/how-plants-use-light-to-grow" target="_blank" rel="noopener">lichtgebruik door planten</a>. De fietsscène toont schematisch hoe celademhaling energie uit een voorraad beschikbaar maakt. Het plantlab laat alleen de voorwaarden voor fotosynthese zien.</p><p>Deze HTML-app werkt ook zonder internet. De feedback is vooraf geschreven. De eigen uitleg wordt door de lerende zelf vergeleken met het voorbeeld.</p></details></footer>
 </main>
 <dialog id="reset-dialog" aria-labelledby="reset-title"><h2 id="reset-title">Voortgang wissen?</h2><p>Je antwoorden en je eigen uitleg worden op dit apparaat verwijderd.</p><div class="actions"><button type="button" class="btn secondary" id="cancel-reset">Annuleren</button><button type="button" class="btn" id="confirm-reset">Wis voortgang</button></div></dialog>
 <div class="toast" id="toast" role="status" hidden></div>
@@ -47,39 +55,294 @@
 <script>
 'use strict';
 const icons={
-cook:'<path d="M8 11c-5-5 2-12 8-7 5-5 13 1 8 7v9H8zM8 15h16M10 25h12"/>',
-game:'<path d="M9 10h14c4 0 7 13 4 15-3 2-6-4-8-4h-6c-2 0-5 6-8 4-3-2 0-15 4-15zM11 13v6M8 16h6"/><circle cx="22" cy="15" r="1"/><circle cx="25" cy="18" r="1"/>',
-football:'<circle cx="16" cy="16" r="13"/><path d="m16 10 6 4-2 7h-8l-2-7zM16 10V3M22 14l7-2M20 21l4 6M12 21l-4 6M10 14l-7-2"/>',
-music:'<path d="M12 23V7l15-3v16M12 11l15-3"/><ellipse cx="8" cy="24" rx="4" ry="3"/><ellipse cx="23" cy="21" rx="4" ry="3"/>',
-build:'<path d="m3 13 13-6 13 6v12l-13 6L3 25zM3 13l13 6 13-6M16 19v12"/><path d="M9 9V5l7-3 7 3v4M9 5l7 3 7-3M16 8v6"/>'
+  "cook": "<path d=\"M8 11c-5-5 2-12 8-7 5-5 13 1 8 7v9H8zM8 15h16M10 25h12\"/>",
+  "game": "<path d=\"M9 10h14c4 0 7 13 4 15-3 2-6-4-8-4h-6c-2 0-5 6-8 4-3-2 0-15 4-15zM11 13v6M8 16h6\"/><circle cx=\"22\" cy=\"15\" r=\"1\"/><circle cx=\"25\" cy=\"18\" r=\"1\"/>",
+  "football": "<circle cx=\"8\" cy=\"24\" r=\"6\"/><circle cx=\"26\" cy=\"24\" r=\"6\"/><path d=\"m8 24 7-14 7 14H8l11-9 7 9M12 10h6m3-5h4l2 8\"/>",
+  "music": "<path d=\"M12 23V7l15-3v16M12 11l15-3\"/><ellipse cx=\"8\" cy=\"24\" rx=\"4\" ry=\"3\"/><ellipse cx=\"23\" cy=\"21\" rx=\"4\" ry=\"3\"/>",
+  "build": "<path d=\"m3 13 13-6 13 6v12l-13 6L3 25zM3 13l13 6 13-6M16 19v12\"/><path d=\"M9 9V5l7-3 7 3v4M9 5l7 3 7-3M16 8v6\"/>"
 };
 function icon(id){return '<svg class="icon" viewBox="0 0 32 34" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+icons[id]+'</svg>'}
 const analogies=[
-{id:'cook',name:'Koken',sub:'Grondstof of energie?',title:'De pannenkoekenkeuken',rows:[['Meel + melk','Ingrediënten','Water + CO₂','Grondstoffen'],['Warmte van de kookplaat','Energie om te bereiden','Licht van de zon','Energie voor fotosynthese'],['Pannenkoek','Wat je maakt','Glucose','Wat de plant maakt']],steps:[
-{title:'Ingrediënten worden iets nieuws',text:'Je maakt een pannenkoek van ingrediënten. Ook een plant maakt iets nieuws van grondstoffen: water en CO₂ worden omgezet in glucose. Bij fotosynthese ontstaat ook zuurstof.',focus:0,q:'Wat lijkt in deze vergelijking op meel en melk?',options:['Het zonlicht','Water en CO₂','Alleen de aarde'],answer:1,feedback:['Zonlicht levert energie. Zoek de stoffen waaruit de plant glucose maakt.','Water en CO₂ zijn de grondstoffen. Net als ingrediënten worden ze gebruikt om iets nieuws te maken.','De wortels halen water en mineralen uit de bodem. De plant maakt glucose uit water en CO₂.']},
-{title:'De kookplaat is geen ingrediënt',text:'Met alleen meel en melk bak je geen pannenkoek. Je hebt ook energie nodig. De plant gebruikt lichtenergie om uit zijn grondstoffen glucose te maken.',focus:1,q:'Welke zin klopt?',options:['Licht is een grondstof die glucose wordt.','Licht vervangt water.','Licht levert de energie voor de omzetting.'],answer:2,feedback:['Licht is energie, geen stof. Water en CO₂ leveren de stoffen waaruit de plant glucose maakt.','Water blijft een grondstof. Extra licht vervangt dat niet.','Precies: houd grondstoffen en energie uit elkaar. De plant gebruikt beide.']},
-{title:'Waar houdt deze vergelijking op?',text:'De keuken helpt je het verschil tussen grondstoffen en energie te zien. Een plant bakt niets: in bladgroenkorrels wordt lichtenergie omgezet in chemische energie in glucose.',focus:2,q:'Wat kun je wél uit de vergelijking meenemen?',options:['Voor het maken zijn grondstoffen én energie nodig.','Een plant moet heet worden om glucose te maken.','Een blad maakt een soort pannenkoek.'],answer:0,feedback:['Dat is de overeenkomst. De energiebron en het proces zijn anders: bij de plant gaat het om licht en fotosynthese.','De kookplaat gebruikt warmte. Bij fotosynthese is licht de energiebron; een blad is geen hete pan.','Glucose is een suiker. De pannenkoek staat alleen voor het gemaakte product.']}
-] },
-{id:'game',name:'Gamen',sub:'Een recept volgen',title:'De craftingtafel',rows:[['Items uit je inventory','Benodigde materialen','Water + CO₂','Benodigde grondstoffen'],['Het juiste craftingrecept','Een gerichte omzetting','Fotosynthese in het blad','Een reeks chemische reacties'],['Een nieuw item','Gemaakt van je materialen','Glucose','Gemaakt uit water en CO₂']],steps:[
-{title:'Zonder materialen geen nieuw item',text:'In een bouwgame heb je de juiste items nodig om iets te craften. Extra speeltijd vervangt een ontbrekend item niet. Ook een plant heeft de juiste grondstoffen nodig.',focus:0,q:'Er is veel licht, maar helemaal geen CO₂ beschikbaar. Kan de plant zo glucose blijven maken?',options:['Ja, extra licht vervangt CO₂.','Ja, als er genoeg water is.','Nee, er ontbreekt een grondstof.'],answer:2,feedback:['Licht geeft energie, maar geen koolstof. CO₂ blijft nodig als grondstof.','Water is nodig, maar CO₂ ook. De ene grondstof vervangt de andere niet.','Juist. Net als bij een recept kun je een ontbrekende grondstof niet vervangen door meer van iets anders.']},
-{title:'Van grondstof naar product',text:'Craften verandert je beschikbare materialen in een bruikbaar item. Bij fotosynthese worden water en CO₂ omgezet in andere stoffen. Glucose is een product; zuurstof ontstaat erbij.',focus:2,q:'Welk rijtje bevat de producten van fotosynthese?',options:['Glucose en zuurstof','Water en CO₂','Licht en aarde'],answer:0,feedback:['Glucose en zuurstof ontstaan bij fotosynthese. Water en CO₂ worden ervoor gebruikt.','Water en CO₂ zijn de grondstoffen waarmee de plant begint.','Licht levert energie en aarde is geen product van fotosynthese.']},
-{title:'Een plant heeft geen craftingknop',text:'De vergelijking gaat over grondstoffen en omzetting. In een game gelden spelregels. In een plant zijn het echte chemische reacties, die energie uit licht nodig hebben.',focus:1,q:'Wat moet je aan een gewoon craftingrecept toevoegen om fotosynthese te verklaren?',options:['Een speler die op een knop drukt','Licht als energiebron','Een inventory vol aarde'],answer:1,feedback:['De plant heeft geen speler nodig. Zoek wat de chemische omzetting van energie voorziet.','Lichtenergie is noodzakelijk. Het craftingrecept alleen laat dat nog niet zien.','De belangrijkste grondstoffen hier zijn water en CO₂, niet een voorraad aarde.']}
-] },
-{id:'football',name:'Voetbal',sub:'Verschillende rollen',title:'Een aanval opbouwen',rows:[['Spelers met verschillende rollen','Samen een aanval mogelijk maken','Water, CO₂ en licht','Elk heeft een eigen rol'],['Een opbouw met meerdere passes','Meerdere stappen','Fotosynthese in bladgroenkorrels','Meerdere reacties'],['Een kans creëren','Het gezamenlijke resultaat','Glucose maken','Het resultaat van de omzetting']],steps:[
-{title:'Niet iedere rol is uitwisselbaar',text:'Een aanval bestaat uit verschillende bijdragen. Nog een keeper is niet hetzelfde als iemand die een pass geeft. Ook bij fotosynthese hebben water, CO₂ en licht verschillende rollen.',focus:0,q:'Welke rol heeft licht bij fotosynthese?',options:['Het is de energiebron.','Het levert de koolstof voor glucose.','Het is hetzelfde als water.'],answer:0,feedback:['Licht levert energie. Water en CO₂ zijn grondstoffen; CO₂ levert de koolstof voor glucose.','De koolstof komt uit CO₂. Licht levert de energie waarmee de omzetting mogelijk wordt.','Water is een stof; licht is een energiebron. Ze hebben verschillende rollen.']},
-{title:'Een resultaat ontstaat in stappen',text:'Een aanval kan via meerdere passes ontstaan. Ook fotosynthese bestaat uit meerdere reacties. In de bladgroenkorrels wordt licht opgevangen en worden grondstoffen omgezet.',focus:1,q:'Waar vindt fotosynthese in een groen blad plaats?',options:['In de grond onder de plant','Alleen aan de buitenkant van het blad','In de bladgroenkorrels van de bladcellen'],answer:2,feedback:['Water komt uit de bodem, maar de fotosynthese gebeurt in de groene delen van de plant.','Licht bereikt het blad, maar de reacties vinden in de cellen plaats, in de bladgroenkorrels.','Daar wordt licht opgevangen en vindt de omzetting plaats. Eén pijl in een schema staat dus voor meerdere reacties.']},
-{title:'Grondstoffen zijn geen spelers',text:'Het voetbalbeeld laat rollen en samenwerking zien. Het verklaart niet waar de stof van glucose vandaan komt. Spelers worden geen doelpunt; water en CO₂ worden wél omgezet in andere stoffen.',focus:2,q:'Welke uitspraak gaat te ver met de voetbalvergelijking?',options:['Fotosynthese heeft verschillende noodzakelijke bijdragen.','Water en CO₂ blijven onaangeraakt, net als spelers.','Fotosynthese bestaat uit meerdere stappen.'],answer:1,feedback:['Dat is een bruikbare overeenkomst. Welke uitspraak vergeet dat grondstoffen echt veranderen?','Dit is de grens van de vergelijking: water en CO₂ worden gebruikt en omgezet. Spelers worden niet in een doelpunt omgezet.','Dat is een bruikbare overeenkomst. Zoek de uitspraak die een stofomzetting ontkent.']}
-] },
-{id:'music',name:'Muziek',sub:'Opvangen en bewaren',title:'De opnamestudio',rows:[['Een microfoon vangt geluid op','Opvangen','Bladgroen vangt licht op','Lichtenergie opnemen'],['Een opname bewaren','Informatie vastleggen','Energie in glucose opslaan','Chemische energie vastleggen'],['De opname later gebruiken','Nu maken, later gebruiken','Glucose later gebruiken','Voor energie en groei']],steps:[
-{title:'Opvangen wat binnenkomt',text:'In een studio vangt een microfoon geluid op. In een blad vangt bladgroen licht op. Deze vergelijking gaat over opvangen: geluid is niet hetzelfde als licht.',focus:0,q:'Wat vangt bladgroen op voor fotosynthese?',options:['Kant-en-klare glucose uit de lucht','Lichtenergie','Aarde'],answer:1,feedback:['De plant maakt glucose zelf. Bladgroen vangt de energie op die daarvoor nodig is.','Bladgroen vangt lichtenergie op. Water en CO₂ leveren de grondstoffen.','De bodem levert onder meer water en mineralen. Bladgroen vangt licht op.']},
-{title:'Nu vastleggen, later gebruiken',text:'Een opgenomen track kun je later gebruiken, ook als de band niet speelt. Een plant kan energie vastleggen in glucose en later benutten, ook wanneer er geen licht is.',focus:2,q:'Het wordt nacht. Wat kan de plant dan nog doen?',options:['Glucose gebruiken die eerder is gemaakt','Met het donker als energiebron nieuwe glucose maken','Geen enkel proces meer uitvoeren'],answer:0,feedback:['Ja. Fotosynthese heeft licht nodig, maar de plant kan eerder gemaakte suikers via celademhaling gebruiken.','Donker levert geen lichtenergie. De plant kan wel eerder gemaakte glucose gebruiken.','De plant blijft leven en ademen. Eerder gemaakte suikers kunnen energie leveren.']},
-{title:'Een suiker is geen geluidsbestand',text:'Een opname bewaart informatie over geluid. Glucose bevat chemische energie. De vergelijking helpt bij ‘nu vastleggen, later gebruiken’, niet bij de vraag wat er precies wordt opgeslagen.',focus:1,q:'Wat wordt bij fotosynthese in glucose vastgelegd?',options:['Een bestand met lichtdeeltjes','Alleen informatie','Chemische energie, afkomstig van licht'],answer:2,feedback:['Glucose is een stof, geen bestand of doosje met licht. De energie wordt chemisch vastgelegd.','Een geluidsbestand bewaart informatie. Glucose bevat chemische energie.','Dat is het verschil met de opname: een plant zet lichtenergie om in chemische energie.']}
-] },
-{id:'build',name:'Bouwen',sub:'Nieuwe bouwstoffen',title:'De LEGO-werkplaats',rows:[['Stenen in verschillende vormen','Bouwmateriaal','Water + CO₂','Grondstoffen'],['Stenen anders samenvoegen','Nieuwe constructie','Atomen anders verbinden','Nieuwe stoffen'],['Een model als onderdeel van iets groters','Verder bouwen','Glucose als basis voor andere stoffen','Bijvoorbeeld cellulose']],steps:[
-{title:'Bouwen met wat er is',text:'Een LEGO-model ontstaat door stenen anders te combineren. Bij fotosynthese worden atomen uit water en CO₂ anders verbonden. Zo ontstaan nieuwe stoffen, waaronder glucose.',focus:0,q:'Waar komt de koolstof in glucose vandaan?',options:['Uit het zonlicht','Uit CO₂ in de lucht','Uit de groene kleur van het blad'],answer:1,feedback:['Licht levert energie, geen koolstofatomen. Zoek een grondstof met koolstof.','CO₂ bevat koolstofatomen. Die worden gebruikt bij het maken van glucose.','Bladgroen helpt licht opvangen. De koolstof voor nieuwe glucose komt uit CO₂.']},
-{title:'Met je product verder bouwen',text:'Een gebouwd LEGO-onderdeel kan deel worden van een groter model. Een plant kan glucose gebruiken om andere stoffen te maken, bijvoorbeeld cellulose voor celwanden.',focus:2,q:'Glucose is voor een plant…',options:['alleen een afvalstof.','alleen iets dat direct moet worden verbruikt.','een bron van energie én materiaal om verder mee te bouwen.'],answer:2,feedback:['Glucose is juist een bruikbaar product. De plant gebruikt het voor energie en groei.','De plant kan suikers gebruiken, opslaan of omzetten in andere stoffen.','Juist. De plant kan glucose gebruiken voor energie en als basis voor stoffen zoals cellulose.']},
-{title:'Een plant klikt geen blokjes vast',text:'LEGO-stenen blijven herkenbare blokjes. Atomen vormen bij fotosynthese nieuwe moleculen. Dat gebeurt niet vanzelf: de plant gebruikt lichtenergie voor deze omzetting.',focus:1,q:'Welke uitleg hoort bij de echte plant?',options:['Lichtenergie helpt water en CO₂ omzetten in glucose.','Losse glucoseblokjes worden uit de aarde gehaald.','Een blad verzamelt alleen bestaande suikers uit de lucht.'],answer:0,feedback:['Daarmee verbind je de vergelijking aan het echte proces: nieuwe stoffen maken met lichtenergie.','De wortels nemen water en mineralen op. De glucose wordt door de plant zelf gemaakt.','Het blad neemt CO₂ op. De plant maakt daar met water en lichtenergie glucose van.']}
-]}
+  {
+    "id": "cook",
+    "name": "Koken",
+    "sub": "Grondstof of energie?",
+    "title": "De pannenkoekenkeuken",
+    "steps": [
+      {
+        "title": "Ingrediënten worden iets nieuws",
+        "text": "Je maakt een pannenkoek van ingrediënten. Ook een plant maakt iets nieuws van grondstoffen: water en CO₂ worden omgezet in glucose. Bij fotosynthese ontstaat ook zuurstof.",
+        "q": "Wat lijkt in deze vergelijking op meel en melk?",
+        "options": [
+          "Het zonlicht",
+          "Water en CO₂",
+          "Alleen de aarde"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Zonlicht levert energie. Zoek de stoffen waaruit de plant glucose maakt.",
+          "Water en CO₂ zijn de grondstoffen. Net als ingrediënten worden ze gebruikt om iets nieuws te maken.",
+          "De wortels halen water en mineralen uit de bodem. De plant maakt glucose uit water en CO₂."
+        ]
+      },
+      {
+        "title": "De kookplaat is geen ingrediënt",
+        "text": "Met alleen meel en melk bak je geen pannenkoek. Je hebt ook energie nodig. De plant gebruikt lichtenergie om uit zijn grondstoffen glucose te maken.",
+        "q": "Welke zin klopt?",
+        "options": [
+          "Licht is een grondstof die glucose wordt.",
+          "Licht vervangt water.",
+          "Licht levert de energie voor de omzetting."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Licht is energie, geen stof. Water en CO₂ leveren de stoffen waaruit de plant glucose maakt.",
+          "Water blijft een grondstof. Extra licht vervangt dat niet.",
+          "Precies: houd grondstoffen en energie uit elkaar. De plant gebruikt beide."
+        ]
+      },
+      {
+        "title": "Waar houdt deze vergelijking op?",
+        "text": "De keuken helpt je het verschil tussen grondstoffen en energie te zien. Een plant bakt niets: in bladgroenkorrels wordt lichtenergie omgezet in chemische energie in glucose.",
+        "q": "Wat kun je wél uit de vergelijking meenemen?",
+        "options": [
+          "Voor het maken zijn grondstoffen én energie nodig.",
+          "Een plant moet heet worden om glucose te maken.",
+          "Een blad maakt een soort pannenkoek."
+        ],
+        "answer": 0,
+        "feedback": [
+          "Dat is de overeenkomst. De energiebron en het proces zijn anders: bij de plant gaat het om licht en fotosynthese.",
+          "De kookplaat gebruikt warmte. Bij fotosynthese is licht de energiebron; een blad is geen hete pan.",
+          "Glucose is een suiker. De pannenkoek staat alleen voor het gemaakte product."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "game",
+    "name": "Gamen",
+    "sub": "Een grondstof missen",
+    "title": "De craftingmachine",
+    "steps": [
+      {
+        "title": "Zonder materialen geen nieuw item",
+        "text": "In een bouwgame heb je de juiste items nodig om iets te craften. Extra speeltijd vervangt een ontbrekend item niet. Ook een plant heeft de juiste grondstoffen nodig.",
+        "q": "Er is veel licht, maar helemaal geen CO₂ beschikbaar. Kan de plant zo glucose blijven maken?",
+        "options": [
+          "Ja, extra licht vervangt CO₂.",
+          "Ja, als er genoeg water is.",
+          "Nee, er ontbreekt een grondstof."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Licht geeft energie, maar geen koolstof. CO₂ blijft nodig als grondstof.",
+          "Water is nodig, maar CO₂ ook. De ene grondstof vervangt de andere niet.",
+          "Juist. Net als bij een recept kun je een ontbrekende grondstof niet vervangen door meer van iets anders."
+        ]
+      },
+      {
+        "title": "Van grondstof naar product",
+        "text": "Craften verandert je beschikbare materialen in een bruikbaar item. Bij fotosynthese worden water en CO₂ omgezet in andere stoffen. Glucose is een product; zuurstof ontstaat erbij.",
+        "q": "Welk rijtje bevat de producten van fotosynthese?",
+        "options": [
+          "Glucose en zuurstof",
+          "Water en CO₂",
+          "Licht en aarde"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Glucose en zuurstof ontstaan bij fotosynthese. Water en CO₂ worden ervoor gebruikt.",
+          "Water en CO₂ zijn de grondstoffen waarmee de plant begint.",
+          "Licht levert energie en aarde is geen product van fotosynthese."
+        ]
+      },
+      {
+        "title": "Een plant heeft geen craftingknop",
+        "text": "De vergelijking gaat over grondstoffen en omzetting. In een game gelden spelregels. In een plant zijn het echte chemische reacties, die energie uit licht nodig hebben.",
+        "q": "Wat moet je aan een gewoon craftingrecept toevoegen om fotosynthese te verklaren?",
+        "options": [
+          "Een speler die op een knop drukt",
+          "Licht als energiebron",
+          "Een inventory vol aarde"
+        ],
+        "answer": 1,
+        "feedback": [
+          "De plant heeft geen speler nodig. Zoek wat de chemische omzetting van energie voorziet.",
+          "Lichtenergie is noodzakelijk. Het craftingrecept alleen laat dat nog niet zien.",
+          "De belangrijkste grondstoffen hier zijn water en CO₂, niet een voorraad aarde."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "football",
+    "name": "Fietsen",
+    "sub": "Energie gebruiken",
+    "title": "De energiereep voor je fietstocht",
+    "steps": [
+      {
+        "title": "Waar komt de energie vandaan?",
+        "text": "Een energiereep bevat chemische energie. Je lichaam kan die energie beschikbaar maken voor je spieren. Een plant kan de chemische energie in eerder gemaakte glucose gebruiken om cellen te laten werken.",
+        "q": "Wat lijkt in dit beeld op de energiereep?",
+        "options": [
+          "Het zonlicht op dat moment",
+          "De voorraad glucose",
+          "De aarde rond de wortels"
+        ],
+        "answer": 1,
+        "feedback": [
+          "De reep is al gemaakt en bevat opgeslagen energie. Zoek de voorraad die de plant kan gebruiken.",
+          "De glucosevoorraad bevat chemische energie, zoals voedsel voor de fietser.",
+          "De plant heeft zelf een voorraad suikers. Aarde is niet die energievoorraad."
+        ]
+      },
+      {
+        "title": "Je hoeft niet tegelijk te eten en te fietsen",
+        "text": "Je kunt later fietsen op energie uit voedsel dat je eerder hebt gegeten. Ook een plant kan eerder gemaakte suikers later gebruiken. Celademhaling maakt energie uit glucose beschikbaar, overdag én ’s nachts.",
+        "q": "Het is donker geworden. Welke uitspraak klopt?",
+        "options": [
+          "De plant kan nog energie uit eerder gemaakte suikers gebruiken.",
+          "Alle processen in de plant stoppen.",
+          "De plant maakt glucose met donker als energiebron."
+        ],
+        "answer": 0,
+        "feedback": [
+          "De plant blijft onder meer celademhaling uitvoeren. Daarvoor hoeft op dat moment geen licht op het blad te vallen.",
+          "Fotosynthese heeft licht nodig, maar een plant kan eerder gemaakte suikers blijven gebruiken.",
+          "Donker is geen energiebron. De voorraad glucose kan wel energie leveren."
+        ]
+      },
+      {
+        "title": "Wie maakt het voedsel?",
+        "text": "De fietser eet voedsel dat ergens anders gemaakt is. Een groene plant maakt zelf glucose uit water en CO₂ met lichtenergie. De vergelijking gaat over het gebruiken van opgeslagen energie.",
+        "q": "Op welk punt gaat de vergelijking niet op?",
+        "options": [
+          "Voedsel en glucose kunnen energie leveren.",
+          "Energie kan later worden gebruikt.",
+          "De plant moet ook kant-en-klaar voedsel eten."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Dat is juist de overeenkomst. Zoek het verschil tussen de fietser en een groene plant.",
+          "Ook dat is een overeenkomst. Wie maakt de suikers voor de plant?",
+          "De plant maakt zelf glucose met fotosynthese. De fietser eet voedsel."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "music",
+    "name": "Muziek",
+    "sub": "Energie opslaan",
+    "title": "Een muziekfestival op zonne-energie",
+    "steps": [
+      {
+        "title": "Van zonlicht naar een voorraad",
+        "text": "Een zonnepaneel kan via elektriciteit een accu opladen. De accu slaat energie chemisch op. Een plant vangt licht op en legt bij fotosynthese energie chemisch vast in glucose.",
+        "q": "Wat lijkt in deze vergelijking op de glucosevoorraad?",
+        "options": [
+          "De volle accu",
+          "Het geluid uit de speaker",
+          "De metalen behuizing"
+        ],
+        "answer": 0,
+        "feedback": [
+          "Beide zijn een vorm van opgeslagen chemische energie die later bruikbaar is.",
+          "Geluid is wat de speaker maakt met energie. Zoek waar de energie vóór gebruik opgeslagen is.",
+          "De behuizing beschermt de accu. De vergelijking gaat om de energievoorraad."
+        ]
+      },
+      {
+        "title": "De zon gaat onder",
+        "text": "Met een eerder opgeladen accu kan de muziek na zonsondergang doorgaan. Een plant kan in het donker eerder gemaakte suikers gebruiken. Nieuwe fotosynthese heeft wel licht nodig.",
+        "q": "Het is nacht en de voorraad is nog gevuld. Wat kan wél?",
+        "options": [
+          "Nieuwe glucose maken met fotosynthese zonder licht",
+          "Eerder opgeslagen energie gebruiken",
+          "Licht maken door meer water te geven"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Nieuwe fotosynthese heeft lichtenergie nodig. Wat kan nog met de bestaande voorraad?",
+          "Zowel de accu als de suikerreserve kan later energie leveren.",
+          "Water levert geen lichtenergie. Gebruik de voorraad uit het beeld."
+        ]
+      },
+      {
+        "title": "Glucose is ook een stof",
+        "text": "De vergelijking laat energie opvangen, opslaan en later gebruiken zien. De plant maakt glucose uit water en CO₂. Een zonnepaneel maakt geen suiker en heeft daarvoor geen water en CO₂ nodig.",
+        "q": "Wat laat het zonnepaneelbeeld nog niet zien over fotosynthese?",
+        "options": [
+          "Dat energie kan worden opgeslagen",
+          "Dat zonlicht energie levert",
+          "Dat water en CO₂ worden omgezet in glucose"
+        ],
+        "answer": 2,
+        "feedback": [
+          "Dat laat de accu juist zien. Welke stoffen ontbreken in het festivalbeeld?",
+          "Het zonnepaneel laat de energiebron wel zien. Denk aan de grondstoffen.",
+          "Voor fotosynthese zijn ook water en CO₂ nodig. De plant maakt daarmee een nieuwe stof."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "build",
+    "name": "Bouwen",
+    "sub": "Atomen hergebruiken",
+    "title": "Bouwen met dezelfde blokjes",
+    "steps": [
+      {
+        "title": "Bouwen met wat er is",
+        "text": "Een LEGO-model ontstaat door stenen anders te combineren. Bij fotosynthese worden atomen uit water en CO₂ anders verbonden. Zo ontstaan nieuwe stoffen, waaronder glucose.",
+        "q": "Waar komt de koolstof in glucose vandaan?",
+        "options": [
+          "Uit het zonlicht",
+          "Uit CO₂ in de lucht",
+          "Uit de groene kleur van het blad"
+        ],
+        "answer": 1,
+        "feedback": [
+          "Licht levert energie, geen koolstofatomen. Zoek een grondstof met koolstof.",
+          "CO₂ bevat koolstofatomen. Die worden gebruikt bij het maken van glucose.",
+          "Bladgroen helpt licht opvangen. De koolstof voor nieuwe glucose komt uit CO₂."
+        ]
+      },
+      {
+        "title": "Met je product verder bouwen",
+        "text": "Een gebouwd LEGO-onderdeel kan deel worden van een groter model. Een plant kan glucose gebruiken om andere stoffen te maken, bijvoorbeeld cellulose voor celwanden.",
+        "q": "Glucose is voor een plant…",
+        "options": [
+          "alleen een afvalstof.",
+          "alleen iets dat direct moet worden verbruikt.",
+          "een bron van energie én materiaal om verder mee te bouwen."
+        ],
+        "answer": 2,
+        "feedback": [
+          "Glucose is juist een bruikbaar product. De plant gebruikt het voor energie en groei.",
+          "De plant kan suikers gebruiken, opslaan of omzetten in andere stoffen.",
+          "Juist. De plant kan glucose gebruiken voor energie en als basis voor stoffen zoals cellulose."
+        ]
+      },
+      {
+        "title": "Een plant klikt geen blokjes vast",
+        "text": "LEGO-stenen blijven herkenbare blokjes. Atomen vormen bij fotosynthese nieuwe moleculen. Dat gebeurt niet vanzelf: de plant gebruikt lichtenergie voor deze omzetting.",
+        "q": "Welke uitleg hoort bij de echte plant?",
+        "options": [
+          "Lichtenergie helpt water en CO₂ omzetten in glucose.",
+          "Losse glucoseblokjes worden uit de aarde gehaald.",
+          "Een blad verzamelt alleen bestaande suikers uit de lucht."
+        ],
+        "answer": 0,
+        "feedback": [
+          "Daarmee verbind je de vergelijking aan het echte proces: nieuwe stoffen maken met lichtenergie.",
+          "De wortels nemen water en mineralen op. De glucose wordt door de plant zelf gemaakt.",
+          "Het blad neemt CO₂ op. De plant maakt daar met water en lichtenergie glucose van."
+        ]
+      }
+    ]
+  }
 ];
 const checks=[
 {topic:'Grondstoffen',q:'Een plant staat in water met mineralen, zonder aarde. Hij krijgt licht en lucht. Kan hij glucose maken?',options:['Ja, water en CO₂ zijn aanwezig en licht levert energie.','Nee, glucose moet uit de aarde komen.','Nee, een plant heeft aarde nodig als energiebron.'],answer:0,feedback:['Ja. Voor fotosynthese haalt de plant water uit zijn omgeving en CO₂ uit de lucht. Aarde is geen grondstof van glucose.','De plant maakt zelf glucose uit water en CO₂. Aarde hoeft daarvoor niet aanwezig te zijn.','Licht is de energiebron voor fotosynthese. Aarde levert die energie niet.']},
@@ -88,9 +351,9 @@ const checks=[
 {topic:'Toepassen',q:'Een blad krijgt overdag licht. ’s Nachts is het donker. Welke uitleg klopt?',options:['De plant kan ’s nachts eerder gemaakte suikers gebruiken.','Alle cellen stoppen ’s nachts met werken.','De wortels nemen ’s nachts zonlicht op.'],answer:0,feedback:['Juist. Fotosynthese heeft licht nodig. De plant kan wel blijven ademen en energie uit eerder gemaakte suikers gebruiken.','Zonder licht stopt de aanvoer van lichtenergie, maar de plant blijft leven en gebruikt opgeslagen suikers.','Wortels nemen water en mineralen op. In de nacht kan de plant energie uit eerder gemaakte suikers gebruiken.']}
 ];
 const $=id=>document.getElementById(id), KEY='aivd-fotosynthese-v1';
-const fresh=()=>({selected:'cook',steps:{},solved:{},lab:[],check:[],checkIndex:0,explanation:'',reviewed:false,model:false});
+const fresh=()=>({selected:'cook',steps:{},solved:{},lab:[],check:[],checkIndex:0,explanation:'',reviewed:false,model:false,firstAnswers:{},visualTrials:{},contentVersion:2,reflections:{}});
 let state=fresh(), storageAvailable=true;
-try{let s=JSON.parse(localStorage.getItem(KEY)||'null');if(s&&typeof s==='object'){state.selected=analogies.some(a=>a.id===s.selected)?s.selected:'cook';for(const a of analogies){state.steps[a.id]=Math.min(2,Math.max(0,Number(s.steps?.[a.id])||0));state.solved[a.id]=[0,1,2].filter(n=>Array.isArray(s.solved?.[a.id])&&s.solved[a.id].includes(n));}state.lab=Array.isArray(s.lab)?s.lab.filter(x=>['111','011','101','110'].includes(x)):[];state.check=Array.isArray(s.check)?[0,1,2,3].filter(x=>s.check.includes(x)):[];state.checkIndex=Math.min(3,Math.max(0,Number(s.checkIndex)||0));state.explanation=typeof s.explanation==='string'?s.explanation.slice(0,2500):'';state.reviewed=s.reviewed===true;state.model=s.model===true;}}catch(e){storageAvailable=false}
+try{let s=JSON.parse(localStorage.getItem(KEY)||'null');if(s&&typeof s==='object'){state.selected=analogies.some(a=>a.id===s.selected)?s.selected:'cook';for(const a of analogies){state.steps[a.id]=Math.min(2,Math.max(0,Number(s.steps?.[a.id])||0));state.solved[a.id]=[0,1,2].filter(n=>Array.isArray(s.solved?.[a.id])&&s.solved[a.id].includes(n));}state.lab=Array.isArray(s.lab)?s.lab.filter(x=>['111','011','101','110'].includes(x)):[];state.check=Array.isArray(s.check)?[0,1,2,3].filter(x=>s.check.includes(x)):[];state.checkIndex=Math.min(3,Math.max(0,Number(s.checkIndex)||0));state.explanation=typeof s.explanation==='string'?s.explanation.slice(0,2500):'';state.reviewed=s.reviewed===true;state.model=s.model===true;state.reflections=s.reflections&&typeof s.reflections==="object"?Object.fromEntries(Object.entries(s.reflections).filter(([k,v])=>analogies.some(a=>a.id===k)&&typeof v==="string").map(([k,v])=>[k,v.slice(0,1200)])):{};state.contentVersion=s.contentVersion===2?2:1;state.previousComparisons=s.previousComparisons;state.firstAnswers=s.firstAnswers&&typeof s.firstAnswers==="object"?s.firstAnswers:{};state.visualTrials=s.visualTrials&&typeof s.visualTrials==="object"?s.visualTrials:{};}}catch(e){storageAvailable=false}
 let currentView='discover', prediction=null, labResult=false, toastTimer;
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){storageAvailable=false}if(!storageAvailable){$('storage-note').textContent='Opslaan in deze browser is niet beschikbaar. Bewaar je antwoorden met de downloadknop.';$('save-state').textContent='Bewaar je tekst met ‘Bewaar mijn antwoorden’.'}}
 function elText(id,text){$(id).textContent=text}
@@ -99,13 +362,7 @@ function clearFeedback(id){$(id).className='';$(id).textContent='';}
 function done(a){return (state.solved[a.id]||[]).length===3}
 function renderHobbies(){$('hobbies').innerHTML=analogies.map(a=>`<button type="button" class="hobby" data-hobby="${a.id}" aria-pressed="${a.id===state.selected}" aria-label="${a.name}${done(a)?', afgerond':''}">${icon(a.id)}<span><span class="hobby-name">${a.name}</span><span class="small">${a.sub}</span></span>${done(a)?'<span class="tick" aria-hidden="true">✓</span>':''}</button>`).join('');elText('discovery-progress',analogies.filter(done).length+' van 5 verkend');}
 function optionsHTML(items,prefix){return '<div class="options">'+items.map((x,i)=>`<button type="button" class="option" data-${prefix}="${i}"><span class="choice" aria-hidden="true">${String.fromCharCode(65+i)}</span><span>${x}</span></button>`).join('')+'</div>'}
-function renderLesson(){renderHobbies();const a=analogies.find(a=>a.id===state.selected),idx=state.steps[a.id]||0,s=a.steps[idx],solved=(state.solved[a.id]||[]).includes(idx);
-$('analogy-visual').innerHTML=`<div class="visual-title">${icon(a.id)}<div><div class="eyebrow">De vergelijking</div><h3>${a.title}</h3></div></div><div class="compare-label"><span>${a.name.toUpperCase()}</span><span>FOTOSYNTHESE</span></div>${a.rows.map((r,i)=>`<div class="compare-row"><div class="compare-box ${s.focus===i?'active':''}">${r[0]}<span class="small">${r[1]}</span></div><span class="equals" aria-label="lijkt op">≈</span><div class="compare-box ${s.focus===i?'active':''}">${r[2]}<span class="small">${r[3]}</span></div></div>`).join('')}<div class="compare-note">≈ betekent: dit lijkt op elkaar in deze vergelijking.</div>`;
-$('lesson-content').innerHTML=`<div class="progress-dots" aria-label="Stap ${idx+1} van 3">${a.steps.map((_,i)=>`<span class="dot ${(state.solved[a.id]||[]).includes(i)?'done':i===idx?'active':''}"></span>`).join('')}</div><div class="eyebrow" style="margin-bottom:10px">Stap ${idx+1} van 3</div><h3>${s.title}</h3><p class="lesson-copy">${s.text}</p><p class="question">${s.q}</p>${optionsHTML(s.options,'lesson-choice')}`;
-clearFeedback('lesson-feedback');$('lesson-prev').disabled=idx===0;$('lesson-next').disabled=!solved;$('lesson-next').textContent=idx===2?'Naar het plantlab →':'Volgende stap →';
-if(solved){markCorrect('[data-lesson-choice]',s.answer);feedback('lesson-feedback',s.feedback[s.answer],true)}updateSummary();}
 function markCorrect(selector,answer){document.querySelectorAll(selector).forEach((b,i)=>{b.classList.toggle('correct',i===answer);b.disabled=true;if(i===answer)b.querySelector('.choice').textContent='✓'})}
-function answerLesson(index){const a=analogies.find(a=>a.id===state.selected),idx=state.steps[a.id]||0,s=a.steps[idx],ok=index===s.answer;document.querySelectorAll('[data-lesson-choice]').forEach(b=>b.classList.remove('incorrect'));feedback('lesson-feedback',s.feedback[index]+(ok?'':' Kies opnieuw.'),ok);if(ok){state.solved[a.id]??=[];if(!state.solved[a.id].includes(idx))state.solved[a.id].push(idx);markCorrect('[data-lesson-choice]',index);$('lesson-next').disabled=false;renderHobbies();save();updateSummary()}else document.querySelector(`[data-lesson-choice="${index}"]`).classList.add('incorrect')}
 function showView(view){currentView=view;['discover','lab','check'].forEach(v=>$(v).hidden=v!==view);document.querySelectorAll('nav [data-view]').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view?'page':'false'));if(view==='lab')renderPlant();if(view==='check')renderCheck();$(view+'-title').focus({preventScroll:true});$('main').scrollIntoView({block:'start',behavior:'instant'});}
 function plantSVG(result){const l=$('light').checked,w=$('water').checked,c=$('co2').checked,running=result&&l&&w&&c;return `<svg class="plant-svg" viewBox="0 0 500 330" role="img" aria-labelledby="plant-title plant-desc"><title id="plant-title">Fotosynthese in een plant</title><desc id="plant-desc">Licht komt op het blad, water via de wortels en koolstofdioxide uit de lucht. Bij fotosynthese ontstaan glucose en zuurstof. ${result?(running?'Fotosynthese is mogelijk.':'Een noodzakelijke voorwaarde ontbreekt.'):'De proef is nog niet uitgevoerd.'}</desc><defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="context-stroke"/></marker></defs>
 <g class="${l?'':'dim'}"><circle cx="65" cy="57" r="23" fill="#f7d17c"/><g stroke="#c28b28" stroke-width="2"><path d="M65 20v-8M65 94v8M28 57h-8M102 57h8M39 31l-6-6M91 31l6-6M39 83l-6 6M91 83l6 6"/><path d="m102 83 76 53" marker-end="url(#arr)" class="flow ${running?'':'paused'}"/></g><text x="65" y="125" text-anchor="middle" font-size="14">Licht</text></g>
@@ -115,13 +372,11 @@ function plantSVG(result){const l=$('light').checked,w=$('water').checked,c=$('c
 <g class="${c?'':'dim'}"><rect x="323" y="31" width="122" height="47" rx="23" fill="#fff" stroke="#b2c5ca"/><text x="384" y="60" font-size="17" text-anchor="middle">CO₂ uit lucht</text><path d="m329 89-67 33" fill="none" stroke="#6b8791" stroke-width="2" class="flow ${running?'':'paused'}" marker-end="url(#arr)"/></g>
 <g opacity="${running?1:result?.18:.45}"><path d="m276 143 60-11" fill="none" stroke="#51896b" stroke-width="2" class="flow ${running?'':'paused'}" marker-end="url(#arr)"/><rect x="347" y="106" width="110" height="44" rx="12" fill="#fff" stroke="#a8c5ac"/><text x="402" y="134" font-size="15" text-anchor="middle">Zuurstof · O₂</text><path d="m285 174 50 23" fill="none" stroke="#8535cc" stroke-width="2" class="flow ${running?'':'paused'}" marker-end="url(#arr)"/><rect x="345" y="181" width="112" height="54" rx="12" fill="#fff" stroke="#b6a1cd"/><text x="401" y="204" font-size="16" text-anchor="middle">Glucose</text><text x="401" y="222" font-size="10" text-anchor="middle">energie + bouwstof</text></g></svg>`}
 function labKey(){return ['light','water','co2'].map(id=>$(id).checked?'1':'0').join('')}
-function renderPlant(){ $('plant-art').innerHTML=plantSVG(labResult);$('conditions').innerHTML=[['light','Licht'],['water','Water'],['co2','CO₂']].map(([id,label])=>`<span class="condition ${$(id).checked?'':'off'}">${$(id).checked?'✓':'−'} ${label}</span>`).join('');$('trials').innerHTML=[['111','Alles beschikbaar'],['011','Geen licht'],['101','Geen water'],['110','Geen CO₂']].map(([key,label])=>`<span class="trial ${state.lab.includes(key)?'done':''}">${state.lab.includes(key)?'✓ ':''}${label}</span>`).join('');elText('lab-progress',state.lab.length+' van 4 proeven verklaard');}
+function renderPlant(){ $('plant-art').innerHTML=plantSVG(labResult);$('conditions').innerHTML=[['light','Licht'],['water','Water'],['co2','CO₂']].map(([id,label])=>`<span class="condition ${$(id).checked?'':'off'}">${$(id).checked?'✓':'−'} ${label}</span>`).join('');$('trials').innerHTML=[['111','Alles beschikbaar'],['011','Geen licht'],['101','Geen water'],['110','Geen CO₂']].map(([key,label])=>`<span class="trial ${state.lab.includes(key)?'done':''}">${state.lab.includes(key)?'✓ ':''}${label}</span>`).join('');elText('lab-progress',state.lab.length+' van 4 proeven uitgevoerd');}
 function resetLabPrediction(){prediction=null;labResult=false;$('run-lab').disabled=true;clearFeedback('lab-feedback');elText('plant-status','Doe een nieuwe voorspelling voor deze omstandigheden.');document.querySelectorAll('[data-predict]').forEach(b=>{b.classList.remove('selected');b.setAttribute('aria-pressed','false')});renderPlant();}
 function runLab(){if(prediction===null)return;const key=labKey(),can=key==='111',ok=(prediction==='yes')===can;labResult=true;renderPlant();elText('plant-status',can?'Fotosynthese kan plaatsvinden. Er ontstaan glucose en zuurstof.':'Zo kan de plant niet doorgaan met fotosynthese.');let reason;if(can)reason='Water en CO₂ zijn beschikbaar als grondstoffen. Licht levert de energie. De plant kan glucose maken; daarbij ontstaat zuurstof.';else{let missing=[];if(!$('light').checked)missing.push('licht als energiebron');if(!$('water').checked)missing.push('water als grondstof');if(!$('co2').checked)missing.push('CO₂ als grondstof');reason='Er ontbreekt '+missing.join(' en ')+'. Meer van een andere voorwaarde vervangt dat niet. De plant kan nog wel eerder gemaakte suikers gebruiken.'}feedback('lab-feedback',(ok?'Je voorspelling klopt. ':'Je voorspelling klopt nog niet. ')+reason+(ok?'':' Pas je voorspelling aan en voer de proef opnieuw uit.'),ok);if(ok&&['111','011','101','110'].includes(key)&&!state.lab.includes(key)){state.lab.push(key);save();renderPlant();updateSummary()}}
 function renderCheck(){const idx=state.checkIndex,q=checks[idx],solved=state.check.includes(idx);$('check-content').innerHTML=`<div class="eyebrow" style="margin-bottom:16px">Vraag ${idx+1} van 4 · ${q.topic}</div><h3 style="line-height:1.4;margin-bottom:20px">${q.q}</h3>${optionsHTML(q.options,'check-choice')}`;clearFeedback('check-feedback');$('check-prev').disabled=idx===0;$('check-next').disabled=!solved;$('check-next').textContent=idx===3?'Naar mijn eigen uitleg ↓':'Volgende vraag →';if(solved){markCorrect('[data-check-choice]',q.answer);feedback('check-feedback',q.feedback[q.answer],true)}renderCheckProgress();}
-function renderCheckProgress(){$('check-overview').innerHTML=checks.map((q,i)=>`<li class="${state.check.includes(i)?'complete':''}"><span class="number">${state.check.includes(i)?'✓':i+1}</span><span class="topic">${q.topic}</span></li>`).join('');elText('check-progress',state.check.length+' van 4 begrepen');updateSummary();}
 function answerCheck(index){const q=checks[state.checkIndex],ok=index===q.answer;document.querySelectorAll('[data-check-choice]').forEach(b=>b.classList.remove('incorrect'));feedback('check-feedback',q.feedback[index]+(ok?'':' Kies opnieuw.'),ok);if(ok){if(!state.check.includes(state.checkIndex))state.check.push(state.checkIndex);markCorrect('[data-check-choice]',index);$('check-next').disabled=false;save();renderCheckProgress()}else document.querySelector(`[data-check-choice="${index}"]`).classList.add('incorrect')}
-function updateSummary(){elText('learning-summary',`${analogies.filter(done).length}/5 vergelijkingen · ${state.lab.length}/4 proeven · ${state.check.length}/4 begripsvragen${state.reviewed?' · Eigen uitleg nagekeken':''}`)}
 function toast(t){elText('toast',t);$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,3500)}
 document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.view)showView(b.dataset.view);if(b.dataset.hobby){state.selected=b.dataset.hobby;save();renderLesson()}if(b.dataset.lessonChoice!==undefined)answerLesson(Number(b.dataset.lessonChoice));if(b.dataset.checkChoice!==undefined)answerCheck(Number(b.dataset.checkChoice));if(b.dataset.predict){prediction=b.dataset.predict;document.querySelectorAll('[data-predict]').forEach(p=>{const s=p===b;p.classList.toggle('selected',s);p.setAttribute('aria-pressed',String(s))});$('run-lab').disabled=false;clearFeedback('lab-feedback');}});
 $('lesson-prev').onclick=()=>{state.steps[state.selected]=Math.max(0,(state.steps[state.selected]||0)-1);save();renderLesson()};
@@ -134,8 +389,163 @@ $('explanation').value=state.explanation;$('self-reviewed').checked=state.review
 $('explanation').oninput=()=>{state.explanation=$('explanation').value;state.reviewed=false;$('self-reviewed').checked=false;save();updateSummary();elText('save-state',storageAvailable?'Opgeslagen in deze browser.':'Bewaar je tekst met de downloadknop.')};
 $('show-model').onclick=()=>{if($('explanation').value.trim().length<10){toast('Schrijf eerst je eigen uitleg.');$('explanation').focus();return}state.model=true;$('model-box').hidden=false;save()};
 $('self-reviewed').onchange=()=>{state.reviewed=$('self-reviewed').checked;save();updateSummary()};
-$('download').onclick=()=>{const text=['FOTOSYNTHESE — MIJN LEEROVERZICHT','AIvoordocenten · '+new Date().toLocaleDateString('nl-NL'),'','VERGELIJKINGEN',...analogies.map(a=>`${a.name}: ${(state.solved[a.id]||[]).length}/3 stappen begrepen`),'',`PLANTLAB: ${state.lab.length}/4 proeven correct voorspeld en verklaard`,`BEGRIPSCHECK: ${state.check.length}/4 vragen correct beantwoord (opnieuw proberen mogelijk)`,'','MIJN EIGEN UITLEG',state.explanation||'(Nog niet ingevuld)','',state.reviewed?'Ik heb mijn uitleg met het voorbeeld vergeleken.':'Mijn eigen uitleg is nog niet als nagekeken gemarkeerd.'].join('\n');const url=URL.createObjectURL(new Blob(['\ufeff'+text],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='mijn-fotosynthese-uitleg.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Je leeroverzicht is gedownload.')};
-$('reset').onclick=()=>$('reset-dialog').showModal();$('cancel-reset').onclick=()=>$('reset-dialog').close();$('confirm-reset').onclick=()=>{state=fresh();save();$('explanation').value='';$('self-reviewed').checked=false;$('model-box').hidden=true;['light','water','co2'].forEach(id=>{$(id).checked=true;$(id).nextElementSibling.textContent='Beschikbaar'});resetLabPrediction();renderLesson();renderCheck();$('reset-dialog').close();showView('discover');toast('Je voortgang is gewist.')};
+$('download').onclick=()=>{const text=['FOTOSYNTHESE — MIJN LEEROVERZICHT','AIvoordocenten · '+new Date().toLocaleDateString('nl-NL'),'','VERGELIJKINGEN',...analogies.map(a=>`${a.name}: ${(state.solved[a.id]||[]).length}/3 stappen beantwoord`),'',`PLANTLAB: ${state.lab.length}/4 proeven met een juiste voorspelling afgerond (opnieuw proberen mogelijk)`,`BEGRIPSCHECK: ${state.check.length}/4 vragen correct beantwoord (opnieuw proberen mogelijk)`,'','MIJN VERGELIJKINGEN',...analogies.filter(a=>state.reflections?.[a.id]).map(a=>a.name+': '+state.reflections[a.id]),'','MIJN EIGEN UITLEG',state.explanation||'(Nog niet ingevuld)','',state.reviewed?'Ik heb mijn uitleg met het voorbeeld vergeleken.':'Mijn eigen uitleg is nog niet als nagekeken gemarkeerd.'].join('\n');const url=URL.createObjectURL(new Blob(['\ufeff'+text],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='mijn-fotosynthese-uitleg.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Je leeroverzicht is gedownload.')};
+$('reset').onclick=()=>$('reset-dialog').showModal();$('cancel-reset').onclick=()=>$('reset-dialog').close();$('confirm-reset').onclick=()=>{state=fresh();resetScene();save();$('explanation').value='';$('self-reviewed').checked=false;$('model-box').hidden=true;['light','water','co2'].forEach(id=>{$(id).checked=true;$(id).nextElementSibling.textContent='Beschikbaar'});resetLabPrediction();renderLesson();renderCheck();$('reset-dialog').close();showView('discover');toast('Je voortgang is gewist.')};
+// Interactive visual comparisons.
+const sceneSpecs={
+cook:{left:'In de keuken',title:'Grondstoffen én energie',parts:['Ingrediënten','Energie','Product'],normal:'Alles beschikbaar',missing:'Kookplaat / licht uit',q:'Kunnen beide processen een nieuw product maken?',good:'Beide processen kunnen doorgaan: de ingrediënten of grondstoffen én de energie zijn beschikbaar.',bad:'Zonder energie lukt de omzetting niet. De kookplaat levert warmte; de plant gebruikt lichtenergie.'},
+game:{left:'In een bouwgame',title:'Een ontbrekende grondstof',parts:['Materialen','Energie','Product'],normal:'Alle materialen',missing:'Eén materiaal / CO₂ weg',q:'Kunnen beide processen een nieuw product maken?',good:'Alle benodigde materialen zijn er. De machine en de plant kunnen hun product maken.',bad:'Er mist een grondstof. Meer energie vervangt het ontbrekende materiaal of de CO₂ niet.'},
+build:{left:'Met bouwblokjes',title:'Wat wordt opnieuw gecombineerd?',parts:['Bouwmateriaal','Omzetten','Product'],normal:'Alle blokjes',missing:'Zwarte blokjes / koolstof weg',q:'Kan hetzelfde eindproduct nog worden gemaakt?',good:'De zwarte blokjes zitten eerst los en daarna in het bouwwerk. De koolstofatomen komen uit CO₂ en zitten daarna in glucose.',bad:'Zonder de benodigde zwarte blokjes kun je dit model niet bouwen. Zonder koolstof uit CO₂ kan de plant geen glucose maken.'},
+music:{left:'Op het festival',title:'Nu opslaan, later gebruiken',parts:['Licht','Opslag','Gebruiken'],normal:'Overdag opslaan',missing:'Nacht · voorraad gevuld',q:'Kan er nu nieuwe energie uit zonlicht worden opgeslagen?',good:'Overdag wordt lichtenergie opgevangen en opgeslagen: in de accu of in glucose. De plant gebruikt daarbij water en CO₂.',bad:'In het donker wordt geen nieuwe lichtenergie opgeslagen. De eerder gevulde accu en glucosevoorraad kunnen wél energie leveren.'},
+football:{left:'Tijdens het fietsen',title:'Opgeslagen energie gebruiken',parts:['Voorraad','Energie vrijmaken','Activiteit'],normal:'Voorraad aanwezig',missing:'Geen voedsel / glucose',q:'Kan de getoonde voorraad energie leveren?',good:'De fietser gebruikt energie uit voedsel. De plant maakt via celademhaling energie uit glucose beschikbaar, ook zonder licht.',bad:'De afgebeelde energievoorraad ontbreekt. In dit beeld kan daar dus geen energie uit worden vrijgemaakt.'}
+};
+let sceneState={missing:false,prediction:null,result:false,part:null,labels:true,playing:false};
+if(state.contentVersion!==2){
+ state.previousComparisons={football:state.solved.football||[],music:state.solved.music||[]};
+ for(const id of ['football','music']){state.steps[id]=0;state.solved[id]=[]}
+ state.contentVersion=2;
+}
+const picture={
+sun:'<circle cx="0" cy="0" r="24" fill="#ffd27a" stroke="#b18228"/><g stroke="#b18228" stroke-width="3"><path d="M0-33v-12M0 33v12M33 0h12M-33 0h-12M24-24l8-8M-24 24l-8 8M24 24l8 8M-24-24l-8-8"/></g>',
+moon:'<path d="M15-30a34 34 0 1 0 15 57A30 30 0 0 1 15-30" fill="#d5d8ed" stroke="#647197"/><path d="m-30-23 3 5 6 1-5 4 1 6-5-3-5 3 1-6-4-4 6-1" fill="#9b9fbc"/>',
+ingredients:'<path d="M-42-29h36l4 67h-44z" fill="#ead6ad" stroke="#9c8258" stroke-width="2"/><path d="M-40-20h34M-30-7v27m-7-22 7 7 7-7m-14 11 7 7 7-7" fill="none" stroke="#9c8258" stroke-width="2"/><path d="M15-28h22v13l9 12v41H6V-3l9-12z" fill="#fff" stroke="#67899e" stroke-width="2"/><path d="M7 6h38v24H7" fill="#c7deea"/><path d="M15-28h22v9H15z" fill="#337096"/>',
+pan:'<path d="M-48 9Q0 57 46 9Z" fill="#354857" stroke="#152343" stroke-width="3"/><path d="m45 12 38-15" stroke="#354857" stroke-width="10" stroke-linecap="round"/><ellipse cx="-1" cy="8" rx="47" ry="13" fill="#e9bd7c" stroke="#152343" stroke-width="2"/><path d="M-23-16c-12-14 14-15 2-29M0-17c-12-14 14-15 2-29M23-16c-12-14 14-15 2-29" fill="none" stroke="#b79e76" stroke-width="2"/>',
+pancake:'<ellipse cy="25" rx="53" ry="11" fill="#fff" stroke="#9eaab0"/><ellipse cy="18" rx="43" ry="10" fill="#cc9959"/><ellipse cy="9" rx="43" ry="11" fill="#e8b677"/><ellipse cy="0" rx="43" ry="12" fill="#f0ca8d" stroke="#bc935f"/><path d="m-11-2 17-3 8 8-19 3z" fill="#ffe4a1"/><path d="M20 0v22" stroke="#ae7946" stroke-width="7" stroke-linecap="round"/>',
+heat:'<rect x="-38" y="-26" width="76" height="53" rx="9" fill="#eceef1" stroke="#80909a"/><circle r="20" fill="#f7dca9" stroke="#b98228" stroke-width="3"/><circle r="11" fill="none" stroke="#b98228" stroke-width="2"/>',
+matter:'<path d="M-33 0c-8 15-19 28-19 38a19 19 0 0 0 38 0c0-10-11-23-19-38" transform="translate(0 -25)" fill="#98c6df" stroke="#337096" stroke-width="2"/><g class="essential-item"><path d="M10-4h35" stroke="#72828e" stroke-width="5"/><circle cx="5" cy="-4" r="12" fill="#eaaa9a" stroke="#a46354"/><circle cx="25" cy="-4" r="12" fill="#3d4e61"/><circle cx="45" cy="-4" r="12" fill="#eaaa9a" stroke="#a46354"/></g>',
+leaf:'<path d="M-52 33Q-69-47 56-42Q65 61-52 33" fill="#a9d4ac" stroke="#397b54" stroke-width="3"/><path d="m-60 43 95-67M-31 13l-2-25M-10 2l23 10M10-11l-1-18" fill="none" stroke="#397b54" stroke-width="2"/><ellipse cx="-10" cy="-23" rx="11" ry="6" fill="#579661"/><ellipse cx="28" cy="10" rx="11" ry="6" fill="#579661"/>',
+glucose:'<path d="m0-36 31 18v36L0 36l-31-18v-36z" fill="#e6d9b5" stroke="#9f7b36" stroke-width="3"/><path d="m0-25 22 13v24L0 25l-22-13v-24z" fill="#f3e5bc"/><path d="m4-16-14 20H0l-4 13L12-4H2z" fill="#a97d2e"/>',
+oxygen:'<circle cx="-13" cy="0" r="17" fill="#c8dfe9" stroke="#5d92a9" stroke-width="2"/><circle cx="13" cy="0" r="17" fill="#d9eaf1" stroke="#5d92a9" stroke-width="2"/>',
+ore:'<path d="m-52-18 25-13 22 16-6 34-24 12-24-19z" fill="#b6c8d0" stroke="#597583" stroke-width="2"/><path d="m-51-18 22 18 24-15m-24 15v30" fill="none" stroke="#fff" stroke-width="2"/><g class="essential-item"><path d="M15-23q15-10 34 0v43q-20 14-34 0z" fill="#b99068" stroke="#8e7157" stroke-width="2"/><ellipse cx="32" cy="-23" rx="17" ry="8" fill="#e3c6a2" stroke="#8e7157" stroke-width="2"/><ellipse cx="32" cy="-23" rx="8" ry="3" fill="none" stroke="#8e7157"/><path d="M23-7v20M40-6v23" stroke="#8e7157" stroke-width="2"/></g>',
+machine:'<path d="M-46-35h92v80h-92z" fill="#cedadb" stroke="#4b6c70" stroke-width="3"/><path d="M-54-43h108v15H-54z" fill="#6e9a91"/><rect x="-29" y="-15" width="58" height="34" rx="3" fill="#21433d"/><path d="m-8-8-8 12h10l-2 10L9 0H0L5-8" fill="#f5cf7b"/><path d="M-25 34h50" stroke="#4b6c70" stroke-width="4"/><circle cx="34" cy="32" r="4" fill="#e5ad4a"/>',
+gem:'<path d="M-34-18-19-35h38l15 17L0 38z" fill="#b8ded7" stroke="#338775" stroke-width="3"/><path d="m-34-18 34 56 16-56-16-17-16 17H34M-16-18 16-18" fill="none" stroke="#4e9c89" stroke-width="2"/>',
+power:'<rect x="-34" y="-21" width="63" height="44" rx="5" fill="#f0dda3" stroke="#9c7e38" stroke-width="2"/><rect x="29" y="-9" width="8" height="20" fill="#9c7e38"/><path d="m1-15-14 20h12l-4 13L13-5H1z" fill="#b17b22"/>',
+solar:'<path d="m-46-30 80-8 19 62-86 9z" fill="#588399" stroke="#345d76" stroke-width="3"/><path d="m-40-12 79-9M-36 7l80-9M-22-32-9 29M3-35l15 61M-13 34l-7 15m33-18 8 15" stroke="#b8d3e1" stroke-width="2"/>',
+battery:'<rect x="-35" y="-30" width="65" height="60" rx="8" fill="#edf2df" stroke="#56734f" stroke-width="3"/><rect x="30" y="-12" width="9" height="24" rx="2" fill="#56734f"/><rect x="-26" y="-21" width="13" height="42" fill="#8fba79"/><rect x="-9" y="-21" width="13" height="42" fill="#8fba79"/><rect x="8" y="-21" width="13" height="42" fill="#8fba79"/>',
+speaker:'<rect x="-28" y="-45" width="56" height="90" rx="7" fill="#3d4e61" stroke="#152343" stroke-width="2"/><circle cy="-24" r="10" fill="#8194a3"/><circle cy="14" r="20" fill="#8194a3"/><circle cy="14" r="10" fill="#344554"/><path d="M40-22q19 21 0 42M49-31q28 30 0 60" fill="none" stroke="#597d84" stroke-width="3"/>',
+bar:'<path d="m-40-20 71-7 10 44-71 7z" fill="#b68c5d" stroke="#89613d" stroke-width="2"/><path d="m-42-21 30-3 11 45-32 4z" fill="#dce6a5"/><path d="m-10-13 8 4M7-17l8 6M22-18l7 6M-2 1l8 5M15-3l8 5M27 8l6 4" stroke="#e5c696" stroke-width="4" stroke-linecap="round"/>',
+bike:'<g fill="none" stroke="#336f70" stroke-width="3"><circle cx="-34" cy="25" r="23"/><circle cx="34" cy="25" r="23"/><path d="m-34 25 22-40 27 40h-49L8-6l26 31M-18-15h18M10-28h15l9 53"/></g><circle cx="5" cy="-56" r="9" fill="#dab38e"/><path d="m1-43-17 22 24 7-13 31M0-41l20 16 10 1" fill="none" stroke="#254b69" stroke-width="8" stroke-linecap="round"/>',
+tree:'<path d="M0 47V-25" stroke="#50815a" stroke-width="7" fill="none"/><path d="M0 16C-44 16-47-20-40-29-11-32 0-7 0 16M0-8c7-34 33-39 45-35 5 25-17 44-45 35" fill="#a1c99f" stroke="#50815a" stroke-width="2"/><path d="M-33 48h66l-10 23h-46z" fill="#d5ba91" stroke="#9d815f"/>',
+cell:'<ellipse rx="48" ry="34" fill="#dbe8ce" stroke="#577953" stroke-width="3"/><path d="M-28-10C-4-28 35-18 29 6S-22 26-28-10" fill="#edcf9e" stroke="#a67f40" stroke-width="2"/><path d="m-16-5 9-6 7 11 9-8 8 11" fill="none" stroke="#a67f40" stroke-width="2"/>'
+};
+function labelSvg(x,y,t,kind='node-title'){return `<text class="diagram-label ${kind}" x="${x}" y="${y}" text-anchor="middle">${t}</text>`}
+function art(name,x,y,scale=1){return `<g transform="translate(${x} ${y}) scale(${scale})">${picture[name]||''}</g>`}
+function item(inner,x,y,part,extra=''){const active=sceneState.part===part;return `<g class="item ${sceneState.part!==null&&!active?'is-muted':''} ${active?'is-highlighted':''} ${extra}"><rect class="focus-ring" x="${x-66}" y="${y-64}" width="132" height="132" rx="18"/>${inner}</g>`}
+function arrow(x1,y1,x2,y2,energy=false){const angle=Math.atan2(y2-y1,x2-x1),back=9;return `<path d="M${x1} ${y1}L${x2} ${y2}" class="${energy?'energy-line':'link-line'}"/><path d="M${x2-back*Math.cos(angle-.5)} ${y2-back*Math.sin(angle-.5)}L${x2} ${y2} ${x2-back*Math.cos(angle+.5)} ${y2-back*Math.sin(angle+.5)}" fill="none" stroke="${energy?'#ac7518':'#2d7862'}" stroke-width="3" stroke-linecap="round"/>`}
+function cross(x,y){return `<g><circle cx="${x}" cy="${y}" r="16" fill="#fff4d9" stroke="#a36b12"/><path d="m${x-6} ${y-6} 12 12m-12 0 12-12" stroke="#a36b12" stroke-width="2"/></g>`}
+function blocks(x,y,joined=false,atoms=false,absent=false){
+ const coords=joined?[[-25,-17],[0,-17],[25,-17],[-25,10],[0,10],[25,10]]:[[-35,-27],[2,-29],[35,-14],[-28,15],[5,7],[35,26]];
+ return `<g transform="translate(${x} ${y})">${coords.map(([dx,dy],i)=>atoms?`<g opacity="${absent?.15:1}"><circle cx="${dx}" cy="${dy}" r="10" fill="#3d4e61"/><text x="${dx}" y="${dy+4}" text-anchor="middle" style="fill:white;font-size:10px">C</text>${!joined?`<circle cx="${dx-14}" cy="${dy}" r="6" fill="#eaaa9a"/><circle cx="${dx+14}" cy="${dy}" r="6" fill="#eaaa9a"/>`:''}</g>`:`<g opacity="${absent?.15:1}" transform="translate(${dx} ${dy})"><rect x="-10" y="-9" width="20" height="17" rx="2" fill="#3d4e61"/><ellipse cy="-9" rx="5" ry="2" fill="#70808f"/></g>`).join('')}</g>`;
+}
+function conversionScene(id,bio){
+ const off=sceneState.missing,result=sceneState.result,energyMissing=id==='cook'&&off,materialMissing=id!=='cook'&&off;
+ let svg='',input=bio?'matter':id==='cook'?'ingredients':'ore',centre=bio?'leaf':id==='cook'?'pan':'machine',out=bio?'glucose':id==='cook'?'pancake':'gem',source=bio?'sun':id==='cook'?'heat':'power';
+ if(id==='build'){
+  svg+=item(blocks(87,161,false,bio,materialMissing),87,161,0);
+  svg+=item(bio?art('leaf',270,161,.85):`<path d="M226 175v-38q0-13 10-10v22-35q8-13 13 0v29-34q9-10 13 2v32-25q9-9 13 4v27l11-7q16-2 11 13l-25 40" fill="#e8c6a5" stroke="#ac8666" stroke-width="2"/>`,270,161,1);
+  svg+=item(blocks(453,161,true,bio),453,161,2,'output');
+  svg+=labelSvg(87,232,bio?'Koolstof in CO₂':'6 zwarte blokjes')+labelSvg(270,232,bio?'In het groene blad':'Anders samenvoegen')+labelSvg(453,232,bio?'Koolstof in glucose':'Dezelfde 6 blokjes');
+  svg+=labelSvg(270,270,bio?'Ook water en licht zijn nodig.':'De blokjes verdwijnen niet.','node-note');
+  if(bio)svg+=art('sun',270,49,.5)+arrow(270,79,270,109,true);
+ }else{
+  svg+=item(`<g class="${materialMissing?'material-off':''}">${art(input,87,166,.86)}</g>`,87,166,0);
+  svg+=item(art(centre,270,166,.85),270,166,1);
+  svg+=item(art(out,453,166,.9),453,166,2,'output');
+  svg+=item(`<g opacity="${energyMissing?.18:1}">${art(source,270,48,.58)}${arrow(270,82,270,107,true)}</g>`,270,48,1);
+  svg+=labelSvg(87,240,bio?'Water + CO₂':id==='cook'?'Meel + melk':'Erts + hout')+labelSvg(270,240,bio?'In het groene blad':id==='cook'?'In de pan':'Craftingmachine')+labelSvg(453,240,bio?'Glucose':id==='cook'?'Pannenkoek':'Nieuw item');
+  svg+=labelSvg(348,53,bio?'Licht':id==='cook'?'Warmte':'Energie','node-note');
+  if(bio){svg+=`<g class="output">${arrow(315,134,421,76)}${art('oxygen',448,66,.45)}${labelSvg(448,104,'Zuurstof','node-note')}</g>`}
+ }
+ svg+=arrow(150,166,204,166)+arrow(337,166,389,166);
+ if(off)svg+=cross(energyMissing?270:127,energyMissing?90:173);
+ svg+=`<g class="stopped">${cross(361,166)}</g>`;
+ return svg;
+}
+function storageScene(bio){
+ const night=sceneState.missing;
+ let svg=art(night?'moon':'sun',75,83,.67)+item(art(bio?'leaf':'solar',210,83,.67),210,83,0);
+ svg+=`<g class="${night?'inactive-flow':''}">${arrow(115,83,157,83,true)}${arrow(270,83,310,83,true)}</g>`;
+ svg+=item(art(bio?'glucose':'battery',365,83,.78),365,83,1,night?'stored':'output');
+ svg+=labelSvg(75,146,night?'Nacht':'Zonlicht')+labelSvg(210,146,bio?'Bladgroen':'Zonnepaneel')+labelSvg(365,146,bio?'Glucosevoorraad':'Accu');
+ svg+=item(art(bio?'tree':'speaker',365,251,.62),365,251,2,night?'output':'is-muted');
+ if(night)svg+=arrow(365,173,365,205,true)+labelSvg(170,209,'Eerder opgeslagen','node-note')+labelSvg(170,230,'energie gebruiken','node-note')+cross(287,83);
+ else svg+=labelSvg(165,230,bio?'Water + CO₂ → glucose':'Accu opladen','node-note');
+ svg+=labelSvg(365,315,bio?'Cellen laten werken':'Muziek afspelen');
+ return svg;
+}
+function useScene(bio){
+ let svg=item(`<g opacity="${sceneState.missing?.18:1}">${art(bio?'glucose':'bar',90,162,.9)}</g>`,90,162,0);
+ svg+=item(art('cell',270,162,.9),270,162,1);
+ svg+=item(art(bio?'tree':'bike',450,162,.9),450,162,2,'output');
+ svg+=arrow(150,162,205,162)+arrow(335,162,390,162,true);
+ svg+=labelSvg(90,248,bio?'Glucosevoorraad':'Voedsel')+labelSvg(270,248,'Celademhaling')+labelSvg(450,248,bio?'Cellen laten werken':'Spieren laten werken');
+ svg+=labelSvg(270,285,'Chemische energie beschikbaar maken','node-note');
+ if(sceneState.missing)svg+=cross(135,162);
+ return svg;
+}
+function renderSceneSVG(id,bio,play=false){
+ const predicts=!sceneState.missing;
+ // In the night scene, storage stops while use of the existing reserve continues.
+ const visibleAction=id==='music'&&sceneState.missing?true:predicts;
+ const title=`${bio?'De plant':sceneSpecs[id].left}: ${sceneSpecs[id].title}`;
+ const description=id==='music'?'Licht wordt opgevangen en chemische energie wordt opgeslagen. Een eerder gevulde voorraad kan in het donker worden gebruikt.':id==='football'?'Chemische energie uit een voorraad wordt via celademhaling beschikbaar voor activiteit.':'Grondstoffen gaan een omzetting in. Energie komt van een afzonderlijke bron. Er ontstaat een product.';
+ return `<svg class="scene-svg ${sceneState.labels?'':'hide-labels'} ${sceneState.result?(visibleAction?'result-ok':'result-blocked'):''} ${play&&visibleAction?'playing':''}" viewBox="0 0 540 ${id==='music'?340:302}" role="img" aria-label="${title}. ${description}">${id==='music'?storageScene(bio):id==='football'?useScene(bio):conversionScene(id,bio)}</svg>`;
+}
+function renderVisual(play=false){
+ const a=analogies.find(a=>a.id===state.selected),cfg=sceneSpecs[a.id];
+ $('analogy-visual').innerHTML=`<div class="visual-toolbar"><h3>${a.title}</h3><label class="label-switch"><input type="checkbox" id="scene-labels" ${sceneState.labels?'checked':''}>Tekstlabels tonen</label></div>
+ <div class="scene-pair"><div class="scene-card"><h4>${cfg.left}</h4>${renderSceneSVG(a.id,false,play)}</div><div class="scene-card"><h4>In de plant</h4>${renderSceneSVG(a.id,true,play)}</div></div>
+ <div class="scene-tools"><div><div class="part-tools" aria-label="Vergelijk onderdelen">${cfg.parts.map((p,i)=>`<button class="chip" data-part="${i}" aria-pressed="${sceneState.part===i}">${p}</button>`).join('')}<button class="chip" data-part="all" aria-pressed="${sceneState.part===null}">Alles</button></div></div><div class="legend-inline"><span><i></i>Stof / materiaal</span><span><i class="energy"></i>Energie</span></div></div>
+ <div class="visual-experiment"><div><p class="experiment-title">Verander de situatie</p><div class="scenario-switch"><button data-scenario="normal" aria-pressed="${!sceneState.missing}">${cfg.normal}</button><button data-scenario="missing" aria-pressed="${sceneState.missing}">${cfg.missing}</button></div></div><div><p class="experiment-title">${cfg.q}</p><div class="visual-predict"><button class="option ${sceneState.prediction==='yes'?'selected':''}" aria-pressed="${sceneState.prediction==='yes'}" data-scene-predict="yes">Ja</button><button class="option ${sceneState.prediction==='no'?'selected':''}" aria-pressed="${sceneState.prediction==='no'}" data-scene-predict="no">Nee</button><button class="btn" id="play-scene" ${sceneState.prediction===null?'disabled':''}>Test je voorspelling →</button></div></div></div><div class="scene-response" id="scene-response" role="status">${sceneState.result?sceneFeedback():''}</div>`;
+}
+function sceneFeedback(){
+ const cfg=sceneSpecs[state.selected],can=!sceneState.missing,ok=(sceneState.prediction==='yes')===can;
+ return `${ok?'Je voorspelling klopt.':'Vergelijk de uitkomst met je voorspelling.'} ${can?cfg.good:cfg.bad}`;
+}
+function resetScene(){sceneState={missing:false,prediction:null,result:false,part:null,labels:sceneState.labels,playing:false}}
+function renderLesson(){
+ renderHobbies();const a=analogies.find(a=>a.id===state.selected),idx=state.steps[a.id]||0,s=a.steps[idx],solved=(state.solved[a.id]||[]).includes(idx);
+ renderVisual();
+ $('lesson-content').innerHTML=`<div class="progress-dots" aria-label="Stap ${idx+1} van 3">${a.steps.map((_,i)=>`<span class="dot ${(state.solved[a.id]||[]).includes(i)?'done':i===idx?'active':''}"></span>`).join('')}</div><div class="eyebrow" style="margin-bottom:10px">Begripsvraag ${idx+1} van 3</div><h3>${s.title}</h3><p class="question">${s.q}</p>${optionsHTML(s.options,'lesson-choice')}<button class="hint-toggle" id="show-hint">Bekijk de uitleg</button><p id="lesson-explanation" class="lesson-copy" hidden>${s.text}</p>`;
+ clearFeedback('lesson-feedback');$('lesson-prev').disabled=idx===0;$('lesson-next').disabled=!solved;$('lesson-next').textContent=idx===2?'Naar het plantlab →':'Volgende stap →';
+ if(solved){markCorrect('[data-lesson-choice]',s.answer);feedback('lesson-feedback',s.feedback[s.answer],true);$('lesson-explanation').hidden=false;$('show-hint').textContent='Verberg de uitleg';if(idx===2)showComparisonReflection()}
+ updateSummary();
+}
+function answerLesson(index){
+ const a=analogies.find(a=>a.id===state.selected),idx=state.steps[a.id]||0,s=a.steps[idx],ok=index===s.answer;
+ document.querySelectorAll('[data-lesson-choice]').forEach(b=>b.classList.remove('incorrect'));
+ state.firstAnswers??={};const key=a.id+'-'+idx;if(!(key in state.firstAnswers))state.firstAnswers[key]=ok;
+ feedback('lesson-feedback',s.feedback[index]+(ok?'':' Kies opnieuw.'),ok);
+ if(ok){state.solved[a.id]??=[];if(!state.solved[a.id].includes(idx))state.solved[a.id].push(idx);markCorrect('[data-lesson-choice]',index);$('lesson-next').disabled=false;$('lesson-explanation').hidden=false;$('show-hint').textContent='Verberg de uitleg';if(idx===2)showComparisonReflection();renderHobbies();updateSummary()}
+ else document.querySelector(`[data-lesson-choice="${index}"]`).classList.add('incorrect');
+ save();
+}
+function showComparisonReflection(){
+ if($('comparison-reflection'))return;
+ const field=document.createElement('div');field.className='lesson-meaning';
+ field.innerHTML='<label class="text-label" for="comparison-reflection">Wat maakt dit beeld duidelijk over de plant? Noem ook één verschil.</label><textarea class="comparison-explain" id="comparison-reflection" maxlength="1200"></textarea><p class="small">Je kunt je uitleg straks meenemen in de download.</p>';
+ $('lesson-content').append(field);$('comparison-reflection').value=state.reflections?.[state.selected]||'';
+}
+// Delegated controls remain keyboard operable after a scene re-render.
+document.addEventListener('click',e=>{
+ const b=e.target.closest('button');if(!b)return;
+ if(b.dataset.hobby){resetScene();renderVisual()}
+ if(b.dataset.part!==undefined){sceneState.part=b.dataset.part==='all'?null:Number(b.dataset.part);renderVisual();document.querySelector(`[data-part="${b.dataset.part}"]`)?.focus({preventScroll:true})}
+ if(b.dataset.scenario){sceneState.missing=b.dataset.scenario==='missing';sceneState.prediction=null;sceneState.result=false;renderVisual();document.querySelector(`[data-scenario="${b.dataset.scenario}"]`)?.focus({preventScroll:true})}
+ if(b.dataset.scenePredict){sceneState.prediction=b.dataset.scenePredict;sceneState.result=false;renderVisual();document.querySelector(`[data-scene-predict="${b.dataset.scenePredict}"]`)?.focus({preventScroll:true})}
+ if(b.id==='play-scene'){
+  sceneState.result=true;renderVisual(true);$('play-scene').focus({preventScroll:true});
+  state.visualTrials??={};state.visualTrials[state.selected+(sceneState.missing?'-missing':'-normal')]=(sceneState.prediction==='yes')===!sceneState.missing;save();
+ }
+ if(b.id==='show-hint'){$('lesson-explanation').hidden=!$('lesson-explanation').hidden;b.textContent=$('lesson-explanation').hidden?'Bekijk de uitleg':'Verberg de uitleg'}
+});
+document.addEventListener('change',e=>{if(e.target.id==='scene-labels'){sceneState.labels=e.target.checked;document.querySelectorAll('.scene-svg').forEach(svg=>svg.classList.toggle('hide-labels',!sceneState.labels))}});
+document.addEventListener('input',e=>{if(e.target.id==='comparison-reflection'){state.reflections??={};state.reflections[state.selected]=e.target.value.slice(0,1200);save()}});
+
+// Completion means answered, not an automated judgement of understanding.
+function renderCheckProgress(){$('check-overview').innerHTML=checks.map((q,i)=>`<li class="${state.check.includes(i)?'complete':''}"><span class="number">${state.check.includes(i)?'✓':i+1}</span><span class="topic">${q.topic}</span></li>`).join('');elText('check-progress',state.check.length+' van 4 beantwoord');updateSummary()}
+function updateSummary(){elText('learning-summary',`${analogies.filter(done).length}/5 vergelijkingen · ${state.lab.length}/4 proeven · ${state.check.length}/4 begripsvragen${state.reviewed?' · Eigen uitleg nagekeken':''}`)}
+
 renderLesson();renderPlant();renderCheck();save();
 </script>
 </body>
