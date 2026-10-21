@@ -33,6 +33,16 @@ De teksttabellen zijn vervangen door interactieve SVG-vergelijkingen. Het voetba
 
 Bij de eerste opening van versie 2 blijft bestaand werk bewaard. Voor de twee inhoudelijk gewijzigde vergelijkingen begint de vragenroute opnieuw; de oude voltooiingsgegevens blijven als eerdere versie in de lokale opslag staan.
 
+## Versie 3 — 21 oktober 2026
+
+Het leerdoel staat bovenaan en elke vergelijking heeft een eigen focus. Koken, gamen en bouwen richten zich op fotosynthese; muziek en fietsen zijn als verdieping over opgeslagen energie herkenbaar. Eén goed begrepen vergelijking kan voldoende zijn.
+
+Voor de vergelijking controleert een korte vraag of het bekende voorbeeld begrepen wordt. Een onjuist antwoord krijgt inhoudelijke uitleg. Onderdeelknoppen maken de relatie tussen beide beelden expliciet; de grens van elke analogie staat direct bij het beeld. Na de begripsvragen formuleert de lerende zelf een overeenkomst en een verschil en vergelijkt die met een voorbeeld. Een vinkje betekent dat die uitwerking zelf is nagekeken.
+
+Via ‘Uitleg voor presentator’ of `?presentator=1` opent een aparte demonstratiestand. Zes toelichtingen volgen de principes van de webinar-slide. ‘Bekijk deze plek’ navigeert naar het bijbehorende onderdeel en markeert het. Demonstratieantwoorden worden niet opgeslagen. Bij sluiten komt het werk van de lerende terug. Tijdens de demonstratie blijft rechtsonder een knop beschikbaar om de toelichting weer te openen.
+
+De browsercontrole in `tests/learning-flow.cjs` test de bekende context, feedback, expliciete koppeling, grenzen, reflectie, opslag, vijf vergelijkingen, het plantlab, export, mobiel en de scheiding tussen demonstratie en eigen werk. Uitvoeren met Node.js en Playwright, tegen een lokale server of met `BASE_URL` naar een gepubliceerde versie. De standaardbrowser is Chrome; `BROWSER_CHANNEL` kan die keuze aanpassen.
+
 ## Onderbouwing
 
 De analogieën volgen de didactische stappen van [Glynn, Teaching Science with Analogies (1994)](https://files.eric.ed.gov/fulltext/ED373306.pdf). De biologie sluit aan bij [Royal Forestry Society: Photosynthesis](https://rfs.org.uk/learning/tremendous-trees/photosynthesis/) en [RHS: How plants use light for growth](https://www.rhs.org.uk/advice/understanding-plants/how-plants-use-light-to-grow).
