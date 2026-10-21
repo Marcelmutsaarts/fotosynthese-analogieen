@@ -1,54 +1,44 @@
-# Fotosynthese in 5 vergelijkingen
+# Fotosynthese begrijpen
 
-Interactieve HTML-app van AIvoordocenten voor klas 2 van het voortgezet onderwijs. Open `index.html` in een browser; er is geen installatie of backend nodig.
+Een eenvoudige HTML-app van AIvoordocenten voor klas 2 VO. Eén leeractiviteit per scherm. Open index.html rechtstreeks in een browser of publiceer de map als statische website.
 
 ## Leerroute
 
-1. Kies een herkenbare context: koken, gamen, fietsen, muziek of bouwen. De vergelijking en de plant staan als getekende processen naast elkaar. Dezelfde posities en pijlen tonen de overeenkomst. Via de knoppen kun je onderdelen uitlichten en de tekstlabels uitzetten.
-2. Verander een voorwaarde, voorspel de uitkomst en test het beeld. Elke vergelijking heeft twee situaties. Er volgen drie begripsvragen met inhoudelijke feedback; de uitleg verschijnt na het antwoord of op verzoek. Benoem daarna zelf een overeenkomst en een verschil.
-3. Voorspel en onderzoek in het plantlab wat er gebeurt met en zonder licht, water of CO₂.
-4. Beantwoord vier toepassingsvragen, schrijf een eigen uitleg en vergelijk die met een voorbeeld.
+1. Kies één bekende vergelijking: koken, gamen of bouwen.
+2. Beantwoord een vraag over dat bekende voorbeeld.
+3. Koppel energie, grondstoffen en product aan de plant. Beide beelden staan naast elkaar; na een goed antwoord worden de overeenkomstige onderdelen uitgelicht. Maak daarna zelf een vergelijkende zin af.
+4. Benoem waar de vergelijking ophoudt.
+5. Pas het begrip toe op een plant zonder licht en een plant zonder CO₂.
+6. Schrijf een biologische uitleg. Vergelijk die daarna met een voorbeeld en pas je tekst aan.
 
-Voortgang en de eigen uitleg blijven in de lokale browser. De lerende kan een tekstbestand downloaden. Er worden geen antwoorden naar een server verstuurd. De feedback is vooraf geschreven; de eigen uitleg wordt niet automatisch beoordeeld.
+De beelden tonen de functies in dezelfde posities: grondstoffen links, omzetting midden, product rechts en energie bovenaan. Glucose en zuurstof zijn de producten in de plant. De vergelijking met koken betreft de rol van energie en grondstoffen; fotosynthese gebruikt lichtenergie en is geen verhitten. Bouwen vergelijkt het combineren van bestaande bouwstenen, terwijl de plant chemische reacties uitvoert.
 
-## Model
+## Presentator
 
-Het plantlab modelleert de aanwezigheid van noodzakelijke voorwaarden, niet de snelheid van fotosynthese. Andere omstandigheden blijven geschikt. Celademhaling wordt inhoudelijk onderscheiden maar niet gesimuleerd.
+Gebruik de gepubliceerde app met ?presentator=1. Alleen daar staat bovenaan de knop ‘Presentator · didactiek’. De knop opent een korte uitleg bij de huidige leerstap. Er is geen apart dashboard of automatisch geopende toelichting.
 
-De vijf vergelijkingen hebben een eigen focus:
+De presentatorroute start steeds opnieuw en schrijft niet naar de voortgang van de leerling. De leerlingweergave bevat geen docentteksten, bronnen, scoreoverzichten of links naar andere lesonderdelen.
 
-- Koken: grondstoffen onderscheiden van energie.
-- Gamen: een ontbrekende grondstof kan niet door extra energie worden vervangen.
-- Bouwen: koolstofatomen uit CO₂ komen terug in glucose, zoals dezelfde blokjes in een nieuw model.
-- Muziekfestival: zonne-energie opvangen, chemisch opslaan en later gebruiken.
-- Fietsen: via celademhaling energie uit voedsel of glucose beschikbaar maken.
+## Versie 4 — 21 oktober 2026
 
-Koken, gamen en bouwen richten zich op het maken van glucose. Het muziekfestival verklaart energieopslag; de fietser verklaart het gebruik van opgeslagen energie. De vragen benoemen telkens de overeenkomst en de grens van het beeld. De nachtstand van het festival toont een al gevulde voorraad: de aanvoer uit licht stopt, het gebruik kan doorgaan.
+De eerdere combinatie van vijf contexten, plantlab, begripscheck, verwijzingen en presentatorpanelen is vervangen door één begeleide route. Koken, gamen en bouwen ondersteunen hetzelfde kernbegrip. De uitstapjes naar energieopslag en celademhaling via muziek en fietsen zijn uit deze app gehaald.
 
-De groene doorgetrokken pijlen tonen stof of materiaal. De gele onderbroken pijlen tonen energie. Beweging start na een eigen voorspelling en stopt na enkele seconden. De systeemvoorkeur voor minder beweging wordt gerespecteerd.
+Bestaande gegevens uit eerdere versies blijven onaangeroerd in de lokale browseropslag. De nieuwe route gebruikt een eigen opslagcode. Een afgeronde uitleg wordt per gekozen vergelijking lokaal bewaard; een volgende route kan opnieuw beginnen. De app stuurt geen antwoorden naar een server. Meerkeuzefeedback is vooraf geschreven; vrije tekst wordt door de lerende zelf met een voorbeeld vergeleken.
 
-## Versie 2 — 20 oktober 2026
+## Onderwijskundige basis
 
-De teksttabellen zijn vervangen door interactieve SVG-vergelijkingen. Het voetbalbeeld en de geluidsopname zijn vervangen door de fietser en het festival met zonnepaneel en accu. De antwoorden op de begripsvragen worden niet meer vooraf in een uitlegparagraaf aangeboden. Reflecties per vergelijking worden lokaal bewaard en meegenomen in de download.
+De route vertaalt het [Teaching-with-Analogies-model van Glynn (1994)](https://files.eric.ed.gov/fulltext/ED373306.pdf) naar een concrete leeractiviteit: een afgebakend leerdoel, een bekend voorbeeld, expliciete koppelingen, grenzen, actief vergelijken en terugkeer naar de leerstof.
 
-Bij de eerste opening van versie 2 blijft bestaand werk bewaard. Voor de twee inhoudelijk gewijzigde vergelijkingen begint de vragenroute opnieuw; de oude voltooiingsgegevens blijven als eerdere versie in de lokale opslag staan.
+De biologische inhoud sluit aan bij de uitleg over [fotosynthese van de Royal Forestry Society](https://rfs.org.uk/learning/tremendous-trees/photosynthesis/) en over [lichtgebruik door planten van de RHS](https://www.rhs.org.uk/advice/understanding-plants/how-plants-use-light-to-grow).
 
-## Versie 3 — 21 oktober 2026
+## Bestanden en controle
 
-Het leerdoel staat bovenaan en elke vergelijking heeft een eigen focus. Koken, gamen en bouwen richten zich op fotosynthese; muziek en fietsen zijn als verdieping over opgeslagen energie herkenbaar. Eén goed begrepen vergelijking kan voldoende zijn.
+- index.html: pagina en dialoog voor de presentator.
+- styles.css: vormgeving voor groot en klein scherm.
+- art.js: illustraties.
+- app.js: inhoud, leerroute en lokale opslag.
+- tests/learning-flow.cjs: browsercontrole van alle routes, feedback, koppelingen, grenzen, transfer, eigen uitleg, opslag, toetsenbord en mobiel.
 
-Voor de vergelijking controleert een korte vraag of het bekende voorbeeld begrepen wordt. Een onjuist antwoord krijgt inhoudelijke uitleg. Onderdeelknoppen maken de relatie tussen beide beelden expliciet; de grens van elke analogie staat direct bij het beeld. Na de begripsvragen formuleert de lerende zelf een overeenkomst en een verschil en vergelijkt die met een voorbeeld. Een vinkje betekent dat die uitwerking zelf is nagekeken.
+De controle gebruikt Node.js en Playwright met Chrome. BASE_URL kan naar een lokale server of de publicatie verwijzen. Zonder instelling wordt http://127.0.0.1:8674 gebruikt.
 
-Via ‘Uitleg voor presentator’ of `?presentator=1` opent een aparte demonstratiestand. Zes toelichtingen volgen de principes van de webinar-slide. ‘Bekijk deze plek’ navigeert naar het bijbehorende onderdeel en markeert het. Demonstratieantwoorden worden niet opgeslagen. Bij sluiten komt het werk van de lerende terug. Tijdens de demonstratie blijft rechtsonder een knop beschikbaar om de toelichting weer te openen.
-
-De browsercontrole in `tests/learning-flow.cjs` test de bekende context, feedback, expliciete koppeling, grenzen, reflectie, opslag, vijf vergelijkingen, het plantlab, export, mobiel en de scheiding tussen demonstratie en eigen werk. Uitvoeren met Node.js en Playwright, tegen een lokale server of met `BASE_URL` naar een gepubliceerde versie. De standaardbrowser is Chrome; `BROWSER_CHANNEL` kan die keuze aanpassen.
-
-## Onderbouwing
-
-De analogieën volgen de didactische stappen van [Glynn, Teaching Science with Analogies (1994)](https://files.eric.ed.gov/fulltext/ED373306.pdf). De biologie sluit aan bij [Royal Forestry Society: Photosynthesis](https://rfs.org.uk/learning/tremendous-trees/photosynthesis/) en [RHS: How plants use light for growth](https://www.rhs.org.uk/advice/understanding-plants/how-plants-use-light-to-grow).
-
-## Publiceren
-
-Statische website, zonder framework, buildstap of externe afhankelijkheden. Vercel kan de repository direct publiceren met frameworkinstelling ‘Other’.
-
-Gemaakt als demonstratie voor webinar 4: Leerverrijking.
+Vercel publiceert de gekoppelde GitHub-repository als statische site, zonder buildstap of externe afhankelijkheden.
